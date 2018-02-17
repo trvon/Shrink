@@ -32,7 +32,7 @@ def summary():
     # Checking if the webpage contains authors
     if len(a.text) > THRESH:
         return fetch_data(url)
-    
+   
     # Return if page doesn't have an article
     else:
         return url
