@@ -4,6 +4,7 @@ from flask_api import FlaskAPI as flask
 from configparser import ConfigParser
 # Summarizing libraries
 from mongo import fetch_data
+from summary import send_request
 from newspaper import Article
 from flask import request
 import json
@@ -30,7 +31,9 @@ def summary():
     authors = a.authors
     
     # Checking if the webpage contains authors
-    if len(a.text) > THRESH:
+    if authors:
+    # if len(a.text) > THRESH:
+        # return send_request(url) 
         return fetch_data(url)
    
     # Return if page doesn't have an article
