@@ -1,4 +1,5 @@
-Flask-Api
-newspaper3k
+gunicorn
 configparser
 pymongo
+newspaper
+flask

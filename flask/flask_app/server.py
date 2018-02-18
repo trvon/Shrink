@@ -17,26 +17,31 @@ app = flask(__name__)
 @app.route("/summary/", methods=['GET', 'POST'])
 def summary():
     # Gets URL from website
-    url = str(request.args.get('website'))
-    
+    search_request = str(request.args.get('website'))
+    boom_request = str(request.query_string('boom'))
+
+    if search_request:
+        url = search_request
+    else:
+        url = boom_request
+
     # Changing request back to standard request
     url = url.replace('%3A', ':')
     url = url.replace('%2F', '/')
-   
+    return url
     # Preparing URL for analysis
-    a = Article(url)
-    
-    a.download()
-    a.parse()
-    authors = a.authors
+    # a = Article(url)
+    # a.download()
+    # a.parse()
+    # authors = a.authors
     
     # Checking if the webpage contains authors
-    if authors:
-        return fetch_data(url)
+    # if authors:
+    #     return fetch_data(url)
    
     # Return if page doesn't have an article
-    else:
-        return url
+    # else:
+    #     return "Not Possible"
 
 if __name__ == "__main__":
-    app.run(debug=True, host='0.0.0.0')
+    app.run(debug=True)

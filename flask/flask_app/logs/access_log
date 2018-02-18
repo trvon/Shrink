@@ -1,0 +1,12 @@
+
+45.3.79.180 - - [18/Feb/2018:06:39:42 +0000] "GET /summary/ HTTP/2.0" 500 358 "https://www.cnn.com/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.167 Safari/537.36"
+45.3.79.180 - - [18/Feb/2018:06:39:42 +0000] "GET /summary/?boom HTTP/2.0" 500 358 "https://www.cnn.com/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.167 Safari/537.36"
+45.3.79.180 - - [18/Feb/2018:06:39:45 +0000] "GET /summary/ HTTP/2.0" 500 359 "https://www.cnn.com/2018/02/18/middleeast/us-airstrike-killed-dozens-of-russians-in-syria-intl/index.html" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.167 Safari/537.36"
+45.3.79.180 - - [18/Feb/2018:06:39:47 +0000] "GET /summary/?boom HTTP/2.0" 500 359 "https://www.cnn.com/2018/02/18/middleeast/us-airstrike-killed-dozens-of-russians-in-syria-intl/index.html" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.167 Safari/537.36"
+45.3.79.180 - - [18/Feb/2018:06:40:34 +0000] "GET /summary/ HTTP/2.0" 500 358 "https://twitter.com/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.167 Safari/537.36"
+45.3.79.180 - - [18/Feb/2018:06:40:36 +0000] "GET /summary/?boom HTTP/2.0" 500 358 "https://twitter.com/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.167 Safari/537.36"
+52.224.236.250 - - [18/Feb/2018:06:40:39 +0000] "GET / HTTP/1.1" 404 233 "-" "python-requests/2.7.0 CPython/2.7.6 Windows/2008ServerR2"
+52.224.236.250 - - [18/Feb/2018:06:40:39 +0000] "GET / HTTP/1.1" 404 233 "-" "python-requests/2.7.0 CPython/2.7.6 Windows/2008ServerR2"
+45.3.79.180 - - [18/Feb/2018:06:45:12 +0000] "GET /summary/?website=cnn.com HTTP/2.0" 500 358 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.167 Safari/537.36"
+185.130.212.79 - - [18/Feb/2018:06:46:46 +0000] "GET / HTTP/1.1" 404 233 "-" "Python-urllib/2.7"
+185.130.212.79 - - [18/Feb/2018:06:58:04 +0000] "GET / HTTP/1.1" 404 233 "-" "Python-urllib/2.7"
