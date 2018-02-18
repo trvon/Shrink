@@ -9,8 +9,10 @@ For this project, we decided to address the problem of consuming the plethora of
 - MongoDB
 - Python3 API's
 	- newspaper https://github.com/codelucas/newspaper
-	- gunicorn
+	- gunicorn http://docs.gunicorn.org/en/stable/
 	- scholar.py https://github.com/ckreibich/scholar.py
+	- Language-Check https://github.com/myint/language-check
+	- ScraPY NLP Library
 - Nginx
 - Google
 
