@@ -1,7 +1,5 @@
-# Shrink
-
-## Dependencies
-- 
+# Shrink ![logo]
+[logo]: https://raw.githubusercontent.com/trvon/Shrink/master/res/icon.png?token=AFwH2uZptG_pVgKQfTI2kWcQQWF5bzv8ks5akmliwA%3D%3D
 
 ## Idea
 For this project, we decided to address the problem of consuming the plethora of technology around us. We attempted and will continue working on a chrome extension that helps users view summaries of Articles as well as a calculated credibility rating based on the a standard set for by standford at https://credibility.stanford.edu/guidelines/index.html. We attempted to reduce the amount of computations in our servers and creations of already established technologies by taking advangtage of already curated API's for NLP (natural language processing) and easy of submission to websites like hackernews and twitter. 
@@ -16,17 +14,17 @@ For this project, we decided to address the problem of consuming the plethora of
 - Nginx
 - Google
 
-## How the directory is setup
+## How to Build
 
 ## Dependencies
-- 
+
+## How the directory is setup
 
 ## Future Goals of this Work
-[]	Complete the integration of social media sharing and crowdsource curation of popular summaries
-[]	Caching Summaries based upon research intensive tasks
-[]	Peer reviewing
+- [ ]	Complete the integration of social media sharing and crowdsource curation of popular summaries
+- [ ]	Caching Summaries based upon research intensive tasks
+- [ ]	Peer reviewing
 
-## How to Build
 
 ### Back-end
 
