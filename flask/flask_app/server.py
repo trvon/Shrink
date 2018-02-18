@@ -7,6 +7,7 @@ from mongo import fetch_data
 from summary import send_request
 from newspaper import Article
 from flask import request
+import thread
 import json
 
 # The THRESH variable is used to determine if a page has more than
@@ -37,9 +38,19 @@ def summary():
     
     # Checking if the webpage contains authors
     if authors:
-        return "Processing..."
-        # return fetch_data(url)
-   
+        try:
+            # The first thread should return a JSON structure with a summary
+            content = thread.start_new_thread(fetch_data, (url))
+            # Calculates the acuracy of article
+            calc = thread.start_new_thread(calculate, (text, authors, url))
+            # 5 Seconds for threads to complete
+            thread.join(5)
+            # Joins to return to user in JSON structure
+            content.valid.push({ value: calc })
+            return content
+        except:
+            return "Error"
+            # return fetch_data(url)
     # Return if page doesn't have an article
     else:
         return "Not Possible"
