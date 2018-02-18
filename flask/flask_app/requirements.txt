@@ -1,6 +1,7 @@
 gunicorn
 configparser
 pymongo
-newspaper
+newspaper3k
 flask
 language-check
+demjson

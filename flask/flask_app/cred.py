@@ -1,7 +1,7 @@
 #!/usr/bin/python
 from urllib3.util.url import parse_url
-import language-check as LChecker
-import dblp
+import language_check as LChecker
+# import dblp
 
 def author_check(authors):
     publications = 0
@@ -11,13 +11,13 @@ def author_check(authors):
 
 # Need to locate dblp for python3
 # TODO: Fix this functoin
-def author_lookup(author):
-    author = dblp.search(author)
-    return len(michael.publications)
+# def author_lookup(author):
+#    author = dblp.search(author)
+#    return len(michael.publications)
 
 def language_check(text):
     tool = LChecker.LanguageTool('en-US')
-    errors = tool.check(text)
+    errors = tool.check(str(text, 'utf-8'))
     # We need to determine how many errors is to many
     return errors
 
@@ -26,14 +26,15 @@ def language_check(text):
 def url_check(url):
     # The weight of these values isn't to high so the value of a given 
     # extension is subject to change
-    value = {'org': 5, 'com': 3, 'edu': 5, 'gov': 5, 'net': 4, 'me': 2}    
+    value = {'org': 5.0, 'com': 3.0, 'edu': 5.0, 'gov': 5.0, 'net': 4.0, 'me': 2.0}    
     result = parse_url(url.rsplit('//',1)[1]).host.split('.')[2]
     return value[results]
 
 # Will need to implement something more robust
 # https://martin-thoma.com/python-check-wiki-references-for-citation-template/
 def citation_check(text):
-
-
-def calculate_credibility(text, authors, url):
     i = 0
+
+def calculate(text, authors, url):
+    percentage = (url_check(url) / 5) # (1.0 - (language_check(text)) / 10)
+    return percentage
