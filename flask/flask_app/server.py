@@ -28,20 +28,21 @@ def summary():
     # Changing request back to standard request
     url = url.replace('%3A', ':')
     url = url.replace('%2F', '/')
-    return url
+    
     # Preparing URL for analysis
-    # a = Article(url)
-    # a.download()
-    # a.parse()
-    # authors = a.authors
+    a = Article(url)
+    a.download()
+    a.parse()
+    authors = a.authors
     
     # Checking if the webpage contains authors
-    # if authors:
-    #     return fetch_data(url)
+    if authors:
+        return "Processing..."
+        # return fetch_data(url)
    
     # Return if page doesn't have an article
-    # else:
-    #     return "Not Possible"
+    else:
+        return "Not Possible"
 
 if __name__ == "__main__":
     app.run(debug=True)

@@ -15,7 +15,6 @@ def import_data(url):
         'summary': send_request(url)
     }
     result = summaries.insert_one(post_data)
-    # print('One post: {0}].format(result.inserted_id))
 
 def fetch_data(url):
     init()
