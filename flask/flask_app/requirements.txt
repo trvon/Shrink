@@ -1,4 +1,4 @@
 Flask-Api
 newspaper3k
 configparser
-peewee
+pymongo

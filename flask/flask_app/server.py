@@ -14,7 +14,7 @@ import json
 THRESH = 100
 app = flask(__name__)
 
-@app.route('/summary/', methods=['GET', 'POST'])
+@app.route("/summary/", methods=['GET', 'POST'])
 def summary():
     # Gets URL from website
     url = str(request.args.get('website'))
@@ -32,8 +32,6 @@ def summary():
     
     # Checking if the webpage contains authors
     if authors:
-    # if len(a.text) > THRESH:
-        # return send_request(url) 
         return fetch_data(url)
    
     # Return if page doesn't have an article
@@ -41,4 +39,4 @@ def summary():
         return url
 
 if __name__ == "__main__":
-    app.run(debug=True, host='0.0.0.0', port=8080)
+    app.run(debug=True, host='0.0.0.0')
