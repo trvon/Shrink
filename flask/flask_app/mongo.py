@@ -1,3 +1,5 @@
+#!/usr/bin/python
+
 from pymongo import MongoClient
 from summary import send_request
 

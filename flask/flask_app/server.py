@@ -1,4 +1,5 @@
 #!/usr/bin/python3
+# Author: Trvon, Tjwells
 
 from flask_api import FlaskAPI as flask
 from configparser import ConfigParser
@@ -29,7 +30,10 @@ def summary():
     # Changing request back to standard request
     url = url.replace('%3A', ':')
     url = url.replace('%2F', '/')
+    result = parse_url(url).path.split('/')
     
+    # TODO: implement loggin
+
     # Log file read and write
     # LOG.write(url)
     # LOG.close()
@@ -37,6 +41,9 @@ def summary():
     # Preparing URL for analysis
     a = Article(url)
     a.download()
+    # Added check to see if the website is parsible by the API
+    
+    # TODO: Implement our our webscraper that parses the contents of websites
     try:
         a.parse()
     except ArticleException():
@@ -45,15 +52,18 @@ def summary():
     authors = a.authors
     text = a.text 
    
-    result = parse_url(url).path.split('/')
 
-    # Checking if the webpage contains authors
-    if len(result) > 2: # not paper:
+    # Check if the webste is a homepage or not
+    if len(result) > 2:
+        # Passes url to the NLP API
         content = fetch_data(url)
+        # Determines whether the process was possible or not
         if content is None:
             return "Not Possible"
         else:
             content = json.loads(content)
+        # TODO: Finish computation of credibility
+        # Logic of appending credibility to structure returned to the chrome extension
         calc = calculate(text, authors, url)
         content['value'] = calc
         content = json.dumps(content)

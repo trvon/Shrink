@@ -39,5 +39,5 @@ def citation_check(text):
     i = 0
 
 def calculate(text, authors, url):
-    percentage = (url_check(url) / 5) # (1.0 - (language_check(text)) / 10)
+    percentage = float(((url_check(url) / 5)))  # + (100 - language_check(text))) / 2)
     return percentage
