@@ -39,7 +39,7 @@ def summary():
     a.download()
     try:
         a.parse()
-    except ArticleException:
+    except ArticleException():
         return "Not Possible"
 
     authors = a.authors
@@ -49,7 +49,11 @@ def summary():
 
     # Checking if the webpage contains authors
     if len(result) > 2: # not paper:
-        content = json.loads(fetch_data(url))
+        content = fetch_data(url)
+        if content is None:
+            return "Not Possible"
+        else:
+            content = json.loads(content)
         calc = calculate(text, authors, url)
         content['value'] = calc
         content = json.dumps(content)
