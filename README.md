@@ -18,23 +18,17 @@ For this project, we decided to address the problem of consuming the plethora of
 - Nginx
 - Google
 
-## How to Build
-
-## Dependencies
-
-## How the directory is setup
-
 ## Future Goals of this Work
 - [ ]	Complete the integration of social media sharing and crowdsource curation of popular summaries
 - [ ]	Caching Summaries based upon research intensive tasks
 - [ ]	Peer reviewing
 
-
-### Back-end
-
-### Front-end
-
-
 Resources:
+### Backend
 - https://www.digitalocean.com/community/tutorials/how-to-set-up-nginx-with-http-2-support-on-ubuntu-16-04 
 - https://www.digitalocean.com/community/tutorials/how-to-serve-flask-applications-with-gunicorn-and-nginx-on-ubuntu-14-04
+### NLP Resources
+- https://github.com/dipanjanS/text-analytics-with-python
+
+## Useful
+For more information regarding building the project, understanding what is happening, or finding any documentationplease check the wiki :)
