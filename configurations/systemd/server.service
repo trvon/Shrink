@@ -1,0 +1,13 @@
+[Unit]
+Description=uWSGI instance to serve server
+After=network.target
+
+[Service]
+User=trvon
+Group=www-data
+WorkingDirectory=/app/flask/flask_app
+Environment="PATH=/app/flask/flask_env/bin"
+ExecStart=/home/trvon/.local/bin/gunicorn --workers 2 --bind 127.0.0.1:8080 -m 007 server:app
+
+[Install]
+WantedBy=multi-user.target

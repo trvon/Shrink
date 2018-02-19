@@ -3,6 +3,7 @@
 from flask_api import FlaskAPI as flask
 from configparser import ConfigParser
 # Summarizing libraries
+from urllib3.util.url import parse_url
 from mongo import fetch_data
 from summary import send_request
 from newspaper import Article
@@ -22,7 +23,7 @@ app = flask(__name__)
 @app.route("/summary/", methods=['GET', 'POST'])
 def summary():
     # Gets URL from website
-    boom_request = str(request.args.get('boom'))
+    boom_request = str(request.args.get('website'))
     url = boom_request
 
     # Changing request back to standard request
@@ -36,19 +37,23 @@ def summary():
     # Preparing URL for analysis
     a = Article(url)
     a.download()
-    a.parse()
+    try:
+        a.parse()
+    except ArticleException:
+        return "Not Possible"
+
     authors = a.authors
     text = a.text 
    
-    # Check if site is an index
-    # paper = newspaper.build(url)
-    
+    result = parse_url(url).path.split('/')
+
     # Checking if the webpage contains authors
-    if author : # not paper:
-        return fetch_data(url)
-        # calc = calculate(text, authors, url)
-        # content.valid.push ({ 'value' : calc })
-        # return content
+    if len(result) > 2: # not paper:
+        content = json.loads(fetch_data(url))
+        calc = calculate(text, authors, url)
+        content['value'] = calc
+        content = json.dumps(content)
+        return content
     
         # try:
         #    # The first thread should return a JSON structure with a summary

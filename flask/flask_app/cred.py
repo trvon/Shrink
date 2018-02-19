@@ -17,9 +17,12 @@ def author_check(authors):
 
 def language_check(text):
     tool = LChecker.LanguageTool('en-US')
-    errors = tool.check(str(text, 'utf-8'))
+    errors = tool.check(text)
     # We need to determine how many errors is to many
-    return errors
+    num = len(errors)
+    if num > 100:
+        num = num % 100
+    return num
 
 # Interesting guide for urllib3
 # https://gist.github.com/JordanMilne/17e413fafb3673f9b64a
@@ -27,8 +30,8 @@ def url_check(url):
     # The weight of these values isn't to high so the value of a given 
     # extension is subject to change
     value = {'org': 5.0, 'com': 3.0, 'edu': 5.0, 'gov': 5.0, 'net': 4.0, 'me': 2.0}    
-    result = parse_url(url.rsplit('//',1)[1]).host.split('.')[2]
-    return value[results]
+    result = parse_url(url.rsplit('//',1)[1]).host.split('.')[-1]
+    return value[result]
 
 # Will need to implement something more robust
 # https://martin-thoma.com/python-check-wiki-references-for-citation-template/
