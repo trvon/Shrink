@@ -1,0 +1,58 @@
+2018-02-19T18:11:12.485+0000 I CONTROL  [main] ***** SERVER RESTARTED *****
+2018-02-19T18:11:12.490+0000 I CONTROL  [initandlisten] MongoDB starting : pid=2259 port=27017 dbpath=/app/database/cache/db 64-bit host=shrink
+2018-02-19T18:11:12.491+0000 I CONTROL  [initandlisten] db version v3.2.19
+2018-02-19T18:11:12.491+0000 I CONTROL  [initandlisten] git version: a9f574de6a566a58b24d126b44a56718d181e989
+2018-02-19T18:11:12.491+0000 I CONTROL  [initandlisten] OpenSSL version: OpenSSL 1.0.2g  1 Mar 2016
+2018-02-19T18:11:12.491+0000 I CONTROL  [initandlisten] allocator: tcmalloc
+2018-02-19T18:11:12.491+0000 I CONTROL  [initandlisten] modules: none
+2018-02-19T18:11:12.491+0000 I CONTROL  [initandlisten] build environment:
+2018-02-19T18:11:12.491+0000 I CONTROL  [initandlisten]     distmod: ubuntu1604
+2018-02-19T18:11:12.491+0000 I CONTROL  [initandlisten]     distarch: x86_64
+2018-02-19T18:11:12.491+0000 I CONTROL  [initandlisten]     target_arch: x86_64
+2018-02-19T18:11:12.491+0000 I CONTROL  [initandlisten] options: { config: "/app/configurations/mongodb/NLP-cache.conf", net: { bindIp: "127.0.0.1", port: 27017 }, storage: { dbPath: "/app/database/cache/db", journal: { enabled: true } }, systemLog: { destination: "file", logAppend: true, path: "/app/database/cache/mongod.log", quiet: true } }
+2018-02-19T18:11:12.525+0000 I -        [initandlisten] Detected data files in /app/database/cache/db created by the 'wiredTiger' storage engine, so setting the active storage engine to 'wiredTiger'.
+2018-02-19T18:11:12.525+0000 W -        [initandlisten] Detected unclean shutdown - /app/database/cache/db/mongod.lock is not empty.
+2018-02-19T18:11:12.528+0000 I STORAGE  [initandlisten] exception in initAndListen: 98 Unable to create/open lock file: /app/database/cache/db/mongod.lock errno:13 Permission denied Is a mongod instance already running?, terminating
+2018-02-19T18:11:12.528+0000 I CONTROL  [initandlisten] dbexit:  rc: 100
+2018-02-19T18:11:30.293+0000 I CONTROL  [main] ***** SERVER RESTARTED *****
+2018-02-19T18:11:30.301+0000 I CONTROL  [initandlisten] MongoDB starting : pid=2294 port=27017 dbpath=/app/database/cache/db 64-bit host=shrink
+2018-02-19T18:11:30.301+0000 I CONTROL  [initandlisten] db version v3.2.19
+2018-02-19T18:11:30.301+0000 I CONTROL  [initandlisten] git version: a9f574de6a566a58b24d126b44a56718d181e989
+2018-02-19T18:11:30.301+0000 I CONTROL  [initandlisten] OpenSSL version: OpenSSL 1.0.2g  1 Mar 2016
+2018-02-19T18:11:30.301+0000 I CONTROL  [initandlisten] allocator: tcmalloc
+2018-02-19T18:11:30.301+0000 I CONTROL  [initandlisten] modules: none
+2018-02-19T18:11:30.301+0000 I CONTROL  [initandlisten] build environment:
+2018-02-19T18:11:30.301+0000 I CONTROL  [initandlisten]     distmod: ubuntu1604
+2018-02-19T18:11:30.301+0000 I CONTROL  [initandlisten]     distarch: x86_64
+2018-02-19T18:11:30.301+0000 I CONTROL  [initandlisten]     target_arch: x86_64
+2018-02-19T18:11:30.301+0000 I CONTROL  [initandlisten] options: { config: "/app/configurations/mongodb/NLP-cache.conf", net: { bindIp: "127.0.0.1", port: 27017 }, storage: { dbPath: "/app/database/cache/db", journal: { enabled: true } }, systemLog: { destination: "file", logAppend: true, path: "/app/database/cache/mongod.log", quiet: true } }
+2018-02-19T18:11:30.334+0000 I -        [initandlisten] Detected data files in /app/database/cache/db created by the 'wiredTiger' storage engine, so setting the active storage engine to 'wiredTiger'.
+2018-02-19T18:11:30.334+0000 W -        [initandlisten] Detected unclean shutdown - /app/database/cache/db/mongod.lock is not empty.
+2018-02-19T18:11:30.334+0000 I STORAGE  [initandlisten] exception in initAndListen: 98 Unable to create/open lock file: /app/database/cache/db/mongod.lock errno:13 Permission denied Is a mongod instance already running?, terminating
+2018-02-19T18:11:30.334+0000 I CONTROL  [initandlisten] dbexit:  rc: 100
+2018-02-19T18:11:55.022+0000 I CONTROL  [main] ***** SERVER RESTARTED *****
+2018-02-19T18:11:55.027+0000 I CONTROL  [initandlisten] MongoDB starting : pid=2339 port=27017 dbpath=/app/database/cache/db 64-bit host=shrink
+2018-02-19T18:11:55.027+0000 I CONTROL  [initandlisten] db version v3.2.19
+2018-02-19T18:11:55.027+0000 I CONTROL  [initandlisten] git version: a9f574de6a566a58b24d126b44a56718d181e989
+2018-02-19T18:11:55.027+0000 I CONTROL  [initandlisten] OpenSSL version: OpenSSL 1.0.2g  1 Mar 2016
+2018-02-19T18:11:55.027+0000 I CONTROL  [initandlisten] allocator: tcmalloc
+2018-02-19T18:11:55.027+0000 I CONTROL  [initandlisten] modules: none
+2018-02-19T18:11:55.027+0000 I CONTROL  [initandlisten] build environment:
+2018-02-19T18:11:55.027+0000 I CONTROL  [initandlisten]     distmod: ubuntu1604
+2018-02-19T18:11:55.027+0000 I CONTROL  [initandlisten]     distarch: x86_64
+2018-02-19T18:11:55.027+0000 I CONTROL  [initandlisten]     target_arch: x86_64
+2018-02-19T18:11:55.027+0000 I CONTROL  [initandlisten] options: { config: "/app/configurations/mongodb/NLP-cache.conf", net: { bindIp: "127.0.0.1", port: 27017 }, storage: { dbPath: "/app/database/cache/db", journal: { enabled: true } }, systemLog: { destination: "file", logAppend: true, path: "/app/database/cache/mongod.log", quiet: true } }
+2018-02-19T18:11:55.059+0000 I -        [initandlisten] Detected data files in /app/database/cache/db created by the 'wiredTiger' storage engine, so setting the active storage engine to 'wiredTiger'.
+2018-02-19T18:11:55.059+0000 W -        [initandlisten] Detected unclean shutdown - /app/database/cache/db/mongod.lock is not empty.
+2018-02-19T18:11:55.059+0000 W STORAGE  [initandlisten] Recovering data from the last clean checkpoint.
+2018-02-19T18:11:55.059+0000 I STORAGE  [initandlisten] wiredtiger_open config: create,cache_size=1G,session_max=20000,eviction=(threads_min=4,threads_max=4),config_base=false,statistics=(fast),log=(enabled=true,archive=true,path=journal,compressor=snappy),file_manager=(close_idle_time=100000),checkpoint=(wait=60,log_size=2GB),statistics_log=(wait=0),verbose=(recovery_progress),
+2018-02-19T18:11:55.096+0000 I CONTROL  [initandlisten] 
+2018-02-19T18:11:55.096+0000 I CONTROL  [initandlisten] ** WARNING: /sys/kernel/mm/transparent_hugepage/enabled is 'always'.
+2018-02-19T18:11:55.096+0000 I CONTROL  [initandlisten] **        We suggest setting it to 'never'
+2018-02-19T18:11:55.096+0000 I CONTROL  [initandlisten] 
+2018-02-19T18:11:55.096+0000 I CONTROL  [initandlisten] ** WARNING: /sys/kernel/mm/transparent_hugepage/defrag is 'always'.
+2018-02-19T18:11:55.096+0000 I CONTROL  [initandlisten] **        We suggest setting it to 'never'
+2018-02-19T18:11:55.096+0000 I CONTROL  [initandlisten] 
+2018-02-19T18:11:55.098+0000 I NETWORK  [HostnameCanonicalizationWorker] Starting hostname canonicalization worker
+2018-02-19T18:11:55.098+0000 I FTDC     [initandlisten] Initializing full-time diagnostic data capture with directory '/app/database/cache/db/diagnostic.data'
+2018-02-19T18:11:55.098+0000 I NETWORK  [initandlisten] waiting for connections on port 27017

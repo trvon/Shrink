@@ -1,1 +1,4 @@
 
+2018/02/19 18:09:49 [crit] 1426#1426: *22 SSL_do_handshake() failed (SSL: error:10067066:elliptic curve routines:ec_GFp_simple_oct2point:invalid encoding error:1408B010:SSL routines:ssl3_get_client_key_exchange:EC lib) while SSL handshaking, client: 70.60.92.130, server: 0.0.0.0:443
+2018/02/19 18:09:50 [crit] 1426#1426: *23 SSL_do_handshake() failed (SSL: error:10067066:elliptic curve routines:ec_GFp_simple_oct2point:invalid encoding error:1408B010:SSL routines:ssl3_get_client_key_exchange:EC lib) while SSL handshaking, client: 70.60.92.130, server: 0.0.0.0:443
+2018/02/19 18:09:52 [crit] 1426#1426: *24 SSL_do_handshake() failed (SSL: error:10067066:elliptic curve routines:ec_GFp_simple_oct2point:invalid encoding error:1408B010:SSL routines:ssl3_get_client_key_exchange:EC lib) while SSL handshaking, client: 70.60.92.130, server: 0.0.0.0:443
