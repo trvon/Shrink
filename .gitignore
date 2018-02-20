@@ -1,0 +1,5 @@
+flask/flask_env/
+flask/flask_app/__pycache__
+database/auth/*
+database/cache/*
+flask/flask_app/logs
