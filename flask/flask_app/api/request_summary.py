@@ -15,7 +15,7 @@ def request_function(url):
     # TODO: Implement our our webscraper that parses the contents of websites
     try:
         a.parse()
-    except ArticleException():
+    except Exception as e:
         return "Not Possible"
 
     authors = a.authors
