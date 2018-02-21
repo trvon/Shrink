@@ -19,7 +19,6 @@ def request_function(url):
     except Exception as e:
         return "Not Possible"
 
-    authors = a.authors
     text = a.text 
     length = len(text)   
     # Check if the webste is a homepage or not
@@ -34,10 +33,10 @@ def request_function(url):
         #    content = json.loads(content)
         # TODO: Finish computation of credibility
         # Logic of appending credibility to structure returned to the chrome extension
-        calc = calculate(text, authors, url)
-        reduce = float((len(content['summary']) / length) * 100)
+        # calc = calculate(text, authors, url)
+        reduce = float((len(content['summary']) / length)) * 100.0
         content['reduce'] = reduce
-        content['value'] = calc
+        # content['value'] = calc
         content['title'] = a.title
         content = json.dumps(content)
         return content
