@@ -95,3 +95,475 @@
 2018-02-19T19:25:46.557-0500 I NETWORK  [HostnameCanonicalizationWorker] Starting hostname canonicalization worker
 2018-02-19T19:25:46.557-0500 I FTDC     [initandlisten] Initializing full-time diagnostic data capture with directory '/app/database/cache/db/diagnostic.data'
 2018-02-19T19:25:46.557-0500 I NETWORK  [initandlisten] waiting for connections on port 27017
+2018-02-20T21:07:48.560-0500 I CONTROL  [signalProcessingThread] got signal 15 (Terminated), will terminate after current cmd ends
+2018-02-20T21:07:48.560-0500 I FTDC     [signalProcessingThread] Shutting down full-time diagnostic data capture
+2018-02-20T21:07:48.564-0500 I CONTROL  [signalProcessingThread] now exiting
+2018-02-20T21:07:48.564-0500 I NETWORK  [signalProcessingThread] shutdown: going to close listening sockets...
+2018-02-20T21:07:48.564-0500 I NETWORK  [signalProcessingThread] closing listening socket: 6
+2018-02-20T21:07:48.564-0500 I NETWORK  [signalProcessingThread] closing listening socket: 7
+2018-02-20T21:07:48.564-0500 I NETWORK  [signalProcessingThread] removing socket file: /tmp/mongodb-27017.sock
+2018-02-20T21:07:48.564-0500 I NETWORK  [signalProcessingThread] shutdown: going to flush diaglog...
+2018-02-20T21:07:48.564-0500 I NETWORK  [signalProcessingThread] shutdown: going to close sockets...
+2018-02-20T21:07:48.564-0500 I STORAGE  [signalProcessingThread] WiredTigerKVEngine shutting down
+2018-02-20T21:07:48.630-0500 I STORAGE  [signalProcessingThread] shutdown: removing fs lock...
+2018-02-20T21:07:48.630-0500 I CONTROL  [signalProcessingThread] dbexit:  rc: 0
+2018-02-20T21:08:53.946-0500 I CONTROL  [main] ***** SERVER RESTARTED *****
+2018-02-20T21:08:53.952-0500 I CONTROL  [initandlisten] MongoDB starting : pid=8381 port=27017 dbpath=/app/database/cache/db 64-bit host=shrink
+2018-02-20T21:08:53.952-0500 I CONTROL  [initandlisten] db version v3.2.19
+2018-02-20T21:08:53.952-0500 I CONTROL  [initandlisten] git version: a9f574de6a566a58b24d126b44a56718d181e989
+2018-02-20T21:08:53.952-0500 I CONTROL  [initandlisten] OpenSSL version: OpenSSL 1.0.2g  1 Mar 2016
+2018-02-20T21:08:53.952-0500 I CONTROL  [initandlisten] allocator: tcmalloc
+2018-02-20T21:08:53.952-0500 I CONTROL  [initandlisten] modules: none
+2018-02-20T21:08:53.952-0500 I CONTROL  [initandlisten] build environment:
+2018-02-20T21:08:53.952-0500 I CONTROL  [initandlisten]     distmod: ubuntu1604
+2018-02-20T21:08:53.952-0500 I CONTROL  [initandlisten]     distarch: x86_64
+2018-02-20T21:08:53.952-0500 I CONTROL  [initandlisten]     target_arch: x86_64
+2018-02-20T21:08:53.952-0500 I CONTROL  [initandlisten] options: { config: "/app/configurations/mongodb/NLP-cache.conf", net: { bindIp: "127.0.0.1", port: 27017 }, storage: { dbPath: "/app/database/cache/db", journal: { enabled: true } }, systemLog: { destination: "file", logAppend: true, path: "/app/database/cache/mongod.log", quiet: true } }
+2018-02-20T21:08:53.982-0500 I STORAGE  [initandlisten] wiredtiger_open config: create,cache_size=1G,session_max=20000,eviction=(threads_min=4,threads_max=4),config_base=false,statistics=(fast),log=(enabled=true,archive=true,path=journal,compressor=snappy),file_manager=(close_idle_time=100000),checkpoint=(wait=60,log_size=2GB),statistics_log=(wait=0),verbose=(recovery_progress),
+2018-02-20T21:08:54.014-0500 I CONTROL  [initandlisten] 
+2018-02-20T21:08:54.014-0500 I CONTROL  [initandlisten] ** WARNING: /sys/kernel/mm/transparent_hugepage/enabled is 'always'.
+2018-02-20T21:08:54.014-0500 I CONTROL  [initandlisten] **        We suggest setting it to 'never'
+2018-02-20T21:08:54.014-0500 I CONTROL  [initandlisten] 
+2018-02-20T21:08:54.014-0500 I CONTROL  [initandlisten] ** WARNING: /sys/kernel/mm/transparent_hugepage/defrag is 'always'.
+2018-02-20T21:08:54.014-0500 I CONTROL  [initandlisten] **        We suggest setting it to 'never'
+2018-02-20T21:08:54.014-0500 I CONTROL  [initandlisten] 
+2018-02-20T21:08:54.020-0500 I NETWORK  [HostnameCanonicalizationWorker] Starting hostname canonicalization worker
+2018-02-20T21:08:54.021-0500 I FTDC     [initandlisten] Initializing full-time diagnostic data capture with directory '/app/database/cache/db/diagnostic.data'
+2018-02-20T21:08:54.021-0500 I NETWORK  [initandlisten] waiting for connections on port 27017
+2018-02-20T21:24:02.371-0500 I CONTROL  [signalProcessingThread] got signal 15 (Terminated), will terminate after current cmd ends
+2018-02-20T21:24:02.374-0500 I FTDC     [signalProcessingThread] Shutting down full-time diagnostic data capture
+2018-02-20T21:24:02.497-0500 I CONTROL  [signalProcessingThread] now exiting
+2018-02-20T21:24:02.497-0500 I NETWORK  [signalProcessingThread] shutdown: going to close listening sockets...
+2018-02-20T21:24:02.497-0500 I NETWORK  [signalProcessingThread] closing listening socket: 6
+2018-02-20T21:24:02.497-0500 I NETWORK  [signalProcessingThread] closing listening socket: 7
+2018-02-20T21:24:02.497-0500 I NETWORK  [signalProcessingThread] removing socket file: /tmp/mongodb-27017.sock
+2018-02-20T21:24:02.497-0500 I NETWORK  [signalProcessingThread] shutdown: going to flush diaglog...
+2018-02-20T21:24:02.497-0500 I NETWORK  [signalProcessingThread] shutdown: going to close sockets...
+2018-02-20T21:24:02.497-0500 I STORAGE  [signalProcessingThread] WiredTigerKVEngine shutting down
+2018-02-20T21:24:02.534-0500 I STORAGE  [signalProcessingThread] shutdown: removing fs lock...
+2018-02-20T21:24:02.535-0500 I CONTROL  [signalProcessingThread] dbexit:  rc: 0
+2018-02-20T21:24:22.062-0500 I CONTROL  [main] ***** SERVER RESTARTED *****
+2018-02-20T21:24:22.149-0500 I CONTROL  [initandlisten] MongoDB starting : pid=1369 port=27017 dbpath=/app/database/cache/db 64-bit host=shrink
+2018-02-20T21:24:22.149-0500 I CONTROL  [initandlisten] db version v3.2.19
+2018-02-20T21:24:22.149-0500 I CONTROL  [initandlisten] git version: a9f574de6a566a58b24d126b44a56718d181e989
+2018-02-20T21:24:22.149-0500 I CONTROL  [initandlisten] OpenSSL version: OpenSSL 1.0.2g  1 Mar 2016
+2018-02-20T21:24:22.149-0500 I CONTROL  [initandlisten] allocator: tcmalloc
+2018-02-20T21:24:22.149-0500 I CONTROL  [initandlisten] modules: none
+2018-02-20T21:24:22.149-0500 I CONTROL  [initandlisten] build environment:
+2018-02-20T21:24:22.149-0500 I CONTROL  [initandlisten]     distmod: ubuntu1604
+2018-02-20T21:24:22.149-0500 I CONTROL  [initandlisten]     distarch: x86_64
+2018-02-20T21:24:22.149-0500 I CONTROL  [initandlisten]     target_arch: x86_64
+2018-02-20T21:24:22.149-0500 I CONTROL  [initandlisten] options: { config: "/app/configurations/mongodb/NLP-cache.conf", net: { bindIp: "127.0.0.1", port: 27017 }, storage: { dbPath: "/app/database/cache/db", journal: { enabled: true } }, systemLog: { destination: "file", logAppend: true, path: "/app/database/cache/mongod.log", quiet: true } }
+2018-02-20T21:24:22.222-0500 I -        [initandlisten] Detected data files in /app/database/cache/db created by the 'wiredTiger' storage engine, so setting the active storage engine to 'wiredTiger'.
+2018-02-20T21:24:22.222-0500 I STORAGE  [initandlisten] wiredtiger_open config: create,cache_size=1G,session_max=20000,eviction=(threads_min=4,threads_max=4),config_base=false,statistics=(fast),log=(enabled=true,archive=true,path=journal,compressor=snappy),file_manager=(close_idle_time=100000),checkpoint=(wait=60,log_size=2GB),statistics_log=(wait=0),verbose=(recovery_progress),
+2018-02-20T21:24:22.586-0500 I STORAGE  [initandlisten] WiredTiger [1519179862:586445][1369:0x7f5a73ec9c80], txn-recover: Main recovery loop: starting at 1/47744
+2018-02-20T21:24:22.867-0500 I STORAGE  [initandlisten] WiredTiger [1519179862:867027][1369:0x7f5a73ec9c80], txn-recover: Recovering log 1 through 2
+2018-02-20T21:24:23.023-0500 I STORAGE  [initandlisten] WiredTiger [1519179863:23492][1369:0x7f5a73ec9c80], txn-recover: Recovering log 2 through 2
+2018-02-20T21:24:23.157-0500 I CONTROL  [initandlisten] 
+2018-02-20T21:24:23.157-0500 I CONTROL  [initandlisten] ** WARNING: /sys/kernel/mm/transparent_hugepage/enabled is 'always'.
+2018-02-20T21:24:23.157-0500 I CONTROL  [initandlisten] **        We suggest setting it to 'never'
+2018-02-20T21:24:23.157-0500 I CONTROL  [initandlisten] 
+2018-02-20T21:24:23.157-0500 I CONTROL  [initandlisten] ** WARNING: /sys/kernel/mm/transparent_hugepage/defrag is 'always'.
+2018-02-20T21:24:23.157-0500 I CONTROL  [initandlisten] **        We suggest setting it to 'never'
+2018-02-20T21:24:23.157-0500 I CONTROL  [initandlisten] 
+2018-02-20T21:24:23.173-0500 I FTDC     [initandlisten] Initializing full-time diagnostic data capture with directory '/app/database/cache/db/diagnostic.data'
+2018-02-20T21:24:23.173-0500 I NETWORK  [initandlisten] waiting for connections on port 27017
+2018-02-20T21:24:23.173-0500 I NETWORK  [HostnameCanonicalizationWorker] Starting hostname canonicalization worker
+2018-02-20T21:38:02.126-0500 I CONTROL  [signalProcessingThread] got signal 15 (Terminated), will terminate after current cmd ends
+2018-02-20T21:38:02.126-0500 I FTDC     [signalProcessingThread] Shutting down full-time diagnostic data capture
+2018-02-20T21:38:02.161-0500 I CONTROL  [signalProcessingThread] now exiting
+2018-02-20T21:38:02.161-0500 I NETWORK  [signalProcessingThread] shutdown: going to close listening sockets...
+2018-02-20T21:38:02.161-0500 I NETWORK  [signalProcessingThread] closing listening socket: 6
+2018-02-20T21:38:02.161-0500 I NETWORK  [signalProcessingThread] closing listening socket: 7
+2018-02-20T21:38:02.161-0500 I NETWORK  [signalProcessingThread] removing socket file: /tmp/mongodb-27017.sock
+2018-02-20T21:38:02.161-0500 I NETWORK  [signalProcessingThread] shutdown: going to flush diaglog...
+2018-02-20T21:38:02.161-0500 I NETWORK  [signalProcessingThread] shutdown: going to close sockets...
+2018-02-20T21:38:02.161-0500 I STORAGE  [signalProcessingThread] WiredTigerKVEngine shutting down
+2018-02-20T21:38:02.235-0500 I STORAGE  [signalProcessingThread] shutdown: removing fs lock...
+2018-02-20T21:38:02.235-0500 I CONTROL  [signalProcessingThread] dbexit:  rc: 0
+2018-02-20T21:38:21.882-0500 I CONTROL  [main] ***** SERVER RESTARTED *****
+2018-02-20T21:38:21.915-0500 I CONTROL  [initandlisten] MongoDB starting : pid=1377 port=27017 dbpath=/app/database/cache/db 64-bit host=shrink
+2018-02-20T21:38:21.915-0500 I CONTROL  [initandlisten] db version v3.2.19
+2018-02-20T21:38:21.915-0500 I CONTROL  [initandlisten] git version: a9f574de6a566a58b24d126b44a56718d181e989
+2018-02-20T21:38:21.915-0500 I CONTROL  [initandlisten] OpenSSL version: OpenSSL 1.0.2g  1 Mar 2016
+2018-02-20T21:38:21.915-0500 I CONTROL  [initandlisten] allocator: tcmalloc
+2018-02-20T21:38:21.915-0500 I CONTROL  [initandlisten] modules: none
+2018-02-20T21:38:21.915-0500 I CONTROL  [initandlisten] build environment:
+2018-02-20T21:38:21.915-0500 I CONTROL  [initandlisten]     distmod: ubuntu1604
+2018-02-20T21:38:21.915-0500 I CONTROL  [initandlisten]     distarch: x86_64
+2018-02-20T21:38:21.915-0500 I CONTROL  [initandlisten]     target_arch: x86_64
+2018-02-20T21:38:21.915-0500 I CONTROL  [initandlisten] options: { config: "/app/configurations/mongodb/NLP-cache.conf", net: { bindIp: "127.0.0.1", port: 27017 }, storage: { dbPath: "/app/database/cache/db", journal: { enabled: true } }, systemLog: { destination: "file", logAppend: true, path: "/app/database/cache/mongod.log", quiet: true } }
+2018-02-20T21:38:21.988-0500 I -        [initandlisten] Detected data files in /app/database/cache/db created by the 'wiredTiger' storage engine, so setting the active storage engine to 'wiredTiger'.
+2018-02-20T21:38:21.988-0500 I STORAGE  [initandlisten] wiredtiger_open config: create,cache_size=1G,session_max=20000,eviction=(threads_min=4,threads_max=4),config_base=false,statistics=(fast),log=(enabled=true,archive=true,path=journal,compressor=snappy),file_manager=(close_idle_time=100000),checkpoint=(wait=60,log_size=2GB),statistics_log=(wait=0),verbose=(recovery_progress),
+2018-02-20T21:38:22.313-0500 I STORAGE  [initandlisten] WiredTiger [1519180702:313940][1377:0x7fe60506cc80], txn-recover: Main recovery loop: starting at 2/16768
+2018-02-20T21:38:22.396-0500 I STORAGE  [initandlisten] WiredTiger [1519180702:396016][1377:0x7fe60506cc80], txn-recover: Recovering log 2 through 3
+2018-02-20T21:38:22.396-0500 I STORAGE  [initandlisten] WiredTiger [1519180702:396503][1377:0x7fe60506cc80], txn-recover: Recovering log 3 through 3
+2018-02-20T21:38:22.494-0500 I CONTROL  [initandlisten] 
+2018-02-20T21:38:22.494-0500 I CONTROL  [initandlisten] ** WARNING: /sys/kernel/mm/transparent_hugepage/enabled is 'always'.
+2018-02-20T21:38:22.494-0500 I CONTROL  [initandlisten] **        We suggest setting it to 'never'
+2018-02-20T21:38:22.494-0500 I CONTROL  [initandlisten] 
+2018-02-20T21:38:22.494-0500 I CONTROL  [initandlisten] ** WARNING: /sys/kernel/mm/transparent_hugepage/defrag is 'always'.
+2018-02-20T21:38:22.494-0500 I CONTROL  [initandlisten] **        We suggest setting it to 'never'
+2018-02-20T21:38:22.494-0500 I CONTROL  [initandlisten] 
+2018-02-20T21:38:22.506-0500 I FTDC     [initandlisten] Initializing full-time diagnostic data capture with directory '/app/database/cache/db/diagnostic.data'
+2018-02-20T21:38:22.506-0500 I NETWORK  [initandlisten] waiting for connections on port 27017
+2018-02-20T21:38:22.506-0500 I NETWORK  [HostnameCanonicalizationWorker] Starting hostname canonicalization worker
+2018-02-20T21:45:11.231-0500 E STORAGE  [thread1] WiredTiger (2) [1519181111:231740][1377:0x7fe602093700], log-server: /app/database/cache/db/journal: directory-list: opendir: No such file or directory
+2018-02-20T21:45:11.231-0500 E STORAGE  [thread1] WiredTiger (2) [1519181111:231878][1377:0x7fe602093700], log-server: log pre-alloc server error: No such file or directory
+2018-02-20T21:45:11.231-0500 E STORAGE  [thread1] WiredTiger (2) [1519181111:231903][1377:0x7fe602093700], log-server: log server error: No such file or directory
+2018-02-20T21:45:14.002-0500 W FTDC     [ftdc] Uncaught exception in 'FileNotOpen: Failed to open interim file /app/database/cache/db/diagnostic.data/metrics.interim.temp' in full-time diagnostic data capture subsystem. Shutting down the full-time diagnostic data capture subsystem.
+2018-02-20T21:45:23.360-0500 E STORAGE  [conn8] WiredTiger (2) [1519181123:360279][1377:0x7fe5fa571700], file:index-9--268748799372382897.wt, WT_SESSION.open_cursor: /app/database/cache/db/index-9--268748799372382897.wt: handle-open: open: No such file or directory
+2018-02-20T21:45:23.360-0500 E STORAGE  [conn8] no cursor for uri: table:index-9--268748799372382897
+2018-02-20T21:45:23.360-0500 F -        [conn8] Invalid access at address: 0x30
+2018-02-20T21:45:23.381-0500 F -        [conn8] Got signal: 11 (Segmentation fault).
+
+ 0x1559962 0x1558909 0x15592e7 0x7fe603c72390 0x124d502 0x124bafe 0xd9265a 0xb57592 0xb57814 0xb57cc7 0xb33dd5 0xb34071 0xb3424d 0xc4fe21 0xc5161b 0xc540e3 0xc546cb 0xc578d0 0xc7a4a6 0xc7b79b 0xb8686b 0xdb4aaa 0xdb7fb6 0x9c6e80 0x14ff891 0x7fe603c686ba 0x7fe60399e41d
+----- BEGIN BACKTRACE -----
+{"backtrace":[{"b":"400000","o":"1159962","s":"_ZN5mongo15printStackTraceERSo"},{"b":"400000","o":"1158909"},{"b":"400000","o":"11592E7"},{"b":"7FE603C61000","o":"11390"},{"b":"400000","o":"E4D502","s":"_ZN5mongo21WiredTigerIndexUnique7_insertEP11__wt_cursorRKNS_7BSONObjERKNS_8RecordIdEb"},{"b":"400000","o":"E4BAFE","s":"_ZN5mongo15WiredTigerIndex6insertEPNS_16OperationContextERKNS_7BSONObjERKNS_8RecordIdEb"},{"b":"400000","o":"99265A","s":"_ZN5mongo17IndexAccessMethod6insertEPNS_16OperationContextERKNS_7BSONObjERKNS_8RecordIdERKNS_19InsertDeleteOptionsEPl"},{"b":"400000","o":"757592","s":"_ZN5mongo12IndexCatalog21_indexFilteredRecordsEPNS_16OperationContextEPNS_17IndexCatalogEntryERKSt6vectorINS_10BsonRecordESaIS6_EE"},{"b":"400000","o":"757814","s":"_ZN5mongo12IndexCatalog13_indexRecordsEPNS_16OperationContextEPNS_17IndexCatalogEntryERKSt6vectorINS_10BsonRecordESaIS6_EE"},{"b":"400000","o":"757CC7","s":"_ZN5mongo12IndexCatalog12indexRecordsEPNS_16OperationContextERKSt6vectorINS_10BsonRecordESaIS4_EE"},{"b":"400000","o":"733DD5","s":"_ZN5mongo10Collection16_insertDocumentsEPNS_16OperationContextEN9__gnu_cxx17__normal_iteratorIPKNS_7BSONObjESt6vectorIS5_SaIS5_EEEESB_b"},{"b":"400000","o":"734071","s":"_ZN5mongo10Collection15insertDocumentsEPNS_16OperationContextEN9__gnu_cxx17__normal_iteratorIPKNS_7BSONObjESt6vectorIS5_SaIS5_EEEESB_bb"},{"b":"400000","o":"73424D","s":"_ZN5mongo10Collection14insertDocumentEPNS_16OperationContextERKNS_7BSONObjEbb"},{"b":"400000","o":"84FE21","s":"_ZN5mongo18WriteBatchExecutor10insertManyEPNS0_16ExecInsertsStateEmmPNS_5CurOpEPSt6vectorIPNS_16WriteErrorDetailESaIS7_EEb"},{"b":"400000","o":"85161B","s":"_ZN5mongo18WriteBatchExecutor11execInsertsERKNS_21BatchedCommandRequestEPSt6vectorIPNS_16WriteErrorDetailESaIS6_EE"},{"b":"400000","o":"8540E3","s":"_ZN5mongo18WriteBatchExecutor11bulkExecuteERKNS_21BatchedCommandRequestEPSt6vectorIPNS_19BatchedUpsertDetailESaIS6_EEPS4_IPNS_16WriteErrorDetailESaISB_EE"},{"b":"400000","o":"8546CB","s":"_ZN5mongo18WriteBatchExecutor12executeBatchERKNS_21BatchedCommandRequestEPNS_22BatchedCommandResponseE"},{"b":"400000","o":"8578D0","s":"_ZN5mongo8WriteCmd3runEPNS_16OperationContextERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERNS_7BSONObjEiRS8_RNS_14BSONObjBuilderE"},{"b":"400000","o":"87A4A6","s":"_ZN5mongo7Command3runEPNS_16OperationContextERKNS_3rpc16RequestInterfaceEPNS3_21ReplyBuilderInterfaceE"},{"b":"400000","o":"87B79B","s":"_ZN5mongo7Command11execCommandEPNS_16OperationContextEPS0_RKNS_3rpc16RequestInterfaceEPNS4_21ReplyBuilderInterfaceE"},{"b":"400000","o":"78686B","s":"_ZN5mongo11runCommandsEPNS_16OperationContextERKNS_3rpc16RequestInterfaceEPNS2_21ReplyBuilderInterfaceE"},{"b":"400000","o":"9B4AAA"},{"b":"400000","o":"9B7FB6","s":"_ZN5mongo16assembleResponseEPNS_16OperationContextERNS_7MessageERNS_10DbResponseERKNS_11HostAndPortE"},{"b":"400000","o":"5C6E80"},{"b":"400000","o":"10FF891","s":"_ZN5mongo17PortMessageServer17handleIncomingMsgEPv"},{"b":"7FE603C61000","o":"76BA"},{"b":"7FE603897000","o":"10741D","s":"clone"}],"processInfo":{ "mongodbVersion" : "3.2.19", "gitVersion" : "a9f574de6a566a58b24d126b44a56718d181e989", "compiledModules" : [], "uname" : { "sysname" : "Linux", "release" : "4.4.0-112-generic", "version" : "#135-Ubuntu SMP Fri Jan 19 11:48:36 UTC 2018", "machine" : "x86_64" }, "somap" : [ { "elfType" : 2, "b" : "400000", "buildId" : "D3471F60D12E548887D24DCA4894F009E439F860" }, { "b" : "7FFFBC1C9000", "elfType" : 3, "buildId" : "FA97F4849697BBE252BA1F7FB2316979E93E61DE" }, { "b" : "7FE604BED000", "path" : "/lib/x86_64-linux-gnu/libssl.so.1.0.0", "elfType" : 3, "buildId" : "DCF10134B91ED2139E3E8C72564668F5CDBA8522" }, { "b" : "7FE6047A9000", "path" : "/lib/x86_64-linux-gnu/libcrypto.so.1.0.0", "elfType" : 3, "buildId" : "1649272BE0CA9FA22F082DC86372B6C9959779B0" }, { "b" : "7FE6045A1000", "path" : "/lib/x86_64-linux-gnu/librt.so.1", "elfType" : 3, "buildId" : "89C34D7A182387D76D5CDA1F7718F5D58824DFB3" }, { "b" : "7FE60439D000", "path" : "/lib/x86_64-linux-gnu/libdl.so.2", "elfType" : 3, "buildId" : "8CC8D0D119B142D839800BFF71FB71E73AEA7BD4" }, { "b" : "7FE604094000", "path" : "/lib/x86_64-linux-gnu/libm.so.6", "elfType" : 3, "buildId" : "DFB85DE42DAFFD09640C8FE377D572DE3E168920" }, { "b" : "7FE603E7E000", "path" : "/lib/x86_64-linux-gnu/libgcc_s.so.1", "elfType" : 3, "buildId" : "68220AE2C65D65C1B6AAA12FA6765A6EC2F5F434" }, { "b" : "7FE603C61000", "path" : "/lib/x86_64-linux-gnu/libpthread.so.0", "elfType" : 3, "buildId" : "CE17E023542265FC11D9BC8F534BB4F070493D30" }, { "b" : "7FE603897000", "path" : "/lib/x86_64-linux-gnu/libc.so.6", "elfType" : 3, "buildId" : "B5381A457906D279073822A5CEB24C4BFEF94DDB" }, { "b" : "7FE604E56000", "path" : "/lib64/ld-linux-x86-64.so.2", "elfType" : 3, "buildId" : "5D7B6259552275A3C17BD4C3FD05F5A6BF40CAA5" } ] }}
+ mongod(_ZN5mongo15printStackTraceERSo+0x32) [0x1559962]
+ mongod(+0x1158909) [0x1558909]
+ mongod(+0x11592E7) [0x15592e7]
+ libpthread.so.0(+0x11390) [0x7fe603c72390]
+ mongod(_ZN5mongo21WiredTigerIndexUnique7_insertEP11__wt_cursorRKNS_7BSONObjERKNS_8RecordIdEb+0x142) [0x124d502]
+ mongod(_ZN5mongo15WiredTigerIndex6insertEPNS_16OperationContextERKNS_7BSONObjERKNS_8RecordIdEb+0xBE) [0x124bafe]
+ mongod(_ZN5mongo17IndexAccessMethod6insertEPNS_16OperationContextERKNS_7BSONObjERKNS_8RecordIdERKNS_19InsertDeleteOptionsEPl+0x1DA) [0xd9265a]
+ mongod(_ZN5mongo12IndexCatalog21_indexFilteredRecordsEPNS_16OperationContextEPNS_17IndexCatalogEntryERKSt6vectorINS_10BsonRecordESaIS6_EE+0xB2) [0xb57592]
+ mongod(_ZN5mongo12IndexCatalog13_indexRecordsEPNS_16OperationContextEPNS_17IndexCatalogEntryERKSt6vectorINS_10BsonRecordESaIS6_EE+0x1C4) [0xb57814]
+ mongod(_ZN5mongo12IndexCatalog12indexRecordsEPNS_16OperationContextERKSt6vectorINS_10BsonRecordESaIS4_EE+0x77) [0xb57cc7]
+ mongod(_ZN5mongo10Collection16_insertDocumentsEPNS_16OperationContextEN9__gnu_cxx17__normal_iteratorIPKNS_7BSONObjESt6vectorIS5_SaIS5_EEEESB_b+0x5A5) [0xb33dd5]
+ mongod(_ZN5mongo10Collection15insertDocumentsEPNS_16OperationContextEN9__gnu_cxx17__normal_iteratorIPKNS_7BSONObjESt6vectorIS5_SaIS5_EEEESB_bb+0x241) [0xb34071]
+ mongod(_ZN5mongo10Collection14insertDocumentEPNS_16OperationContextERKNS_7BSONObjEbb+0x6D) [0xb3424d]
+ mongod(_ZN5mongo18WriteBatchExecutor10insertManyEPNS0_16ExecInsertsStateEmmPNS_5CurOpEPSt6vectorIPNS_16WriteErrorDetailESaIS7_EEb+0xC81) [0xc4fe21]
+ mongod(_ZN5mongo18WriteBatchExecutor11execInsertsERKNS_21BatchedCommandRequestEPSt6vectorIPNS_16WriteErrorDetailESaIS6_EE+0x67B) [0xc5161b]
+ mongod(_ZN5mongo18WriteBatchExecutor11bulkExecuteERKNS_21BatchedCommandRequestEPSt6vectorIPNS_19BatchedUpsertDetailESaIS6_EEPS4_IPNS_16WriteErrorDetailESaISB_EE+0x63) [0xc540e3]
+ mongod(_ZN5mongo18WriteBatchExecutor12executeBatchERKNS_21BatchedCommandRequestEPNS_22BatchedCommandResponseE+0x1DB) [0xc546cb]
+ mongod(_ZN5mongo8WriteCmd3runEPNS_16OperationContextERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERNS_7BSONObjEiRS8_RNS_14BSONObjBuilderE+0x280) [0xc578d0]
+ mongod(_ZN5mongo7Command3runEPNS_16OperationContextERKNS_3rpc16RequestInterfaceEPNS3_21ReplyBuilderInterfaceE+0x676) [0xc7a4a6]
+ mongod(_ZN5mongo7Command11execCommandEPNS_16OperationContextEPS0_RKNS_3rpc16RequestInterfaceEPNS4_21ReplyBuilderInterfaceE+0x85B) [0xc7b79b]
+ mongod(_ZN5mongo11runCommandsEPNS_16OperationContextERKNS_3rpc16RequestInterfaceEPNS2_21ReplyBuilderInterfaceE+0x25B) [0xb8686b]
+ mongod(+0x9B4AAA) [0xdb4aaa]
+ mongod(_ZN5mongo16assembleResponseEPNS_16OperationContextERNS_7MessageERNS_10DbResponseERKNS_11HostAndPortE+0x7D6) [0xdb7fb6]
+ mongod(+0x5C6E80) [0x9c6e80]
+ mongod(_ZN5mongo17PortMessageServer17handleIncomingMsgEPv+0x311) [0x14ff891]
+ libpthread.so.0(+0x76BA) [0x7fe603c686ba]
+ libc.so.6(clone+0x6D) [0x7fe60399e41d]
+-----  END BACKTRACE  -----
+2018-02-20T21:45:23.381-0500 F -        [conn8] /proc/self/maps:
+00400000-02202000 r-xp 00000000 fd:01 29028                              /usr/bin/mongod
+2018-02-20T21:45:23.381-0500 F -        [conn8] 02202000-022b1000 rw-p 01e02000 fd:01 29028                              /usr/bin/mongod
+2018-02-20T21:45:23.381-0500 F -        [conn8] 022b1000-0231d000 rw-p 00000000 00:00 0 
+2018-02-20T21:45:23.381-0500 F -        [conn8] 0395d000-08250000 rw-p 00000000 00:00 0                                  [heap]
+2018-02-20T21:45:23.381-0500 F -        [conn8] 7fe5fa471000-7fe5fa472000 ---p 00000000 00:00 0 
+2018-02-20T21:45:23.381-0500 F -        [conn8] 7fe5fa472000-7fe5fa572000 rw-p 00000000 00:00 0 
+2018-02-20T21:45:23.381-0500 F -        [conn8] 7fe5fa572000-7fe5fa573000 ---p 00000000 00:00 0 
+2018-02-20T21:45:23.381-0500 F -        [conn8] 7fe5fa573000-7fe5fa673000 rw-p 00000000 00:00 0 
+2018-02-20T21:45:23.381-0500 F -        [conn8] 7fe5fa673000-7fe5fa67e000 r-xp 00000000 fd:01 1991                       /lib/x86_64-linux-gnu/libnss_files-2.23.so
+2018-02-20T21:45:23.381-0500 F -        [conn8] 7fe5fa67e000-7fe5fa87d000 ---p 0000b000 fd:01 1991                       /lib/x86_64-linux-gnu/libnss_files-2.23.so
+2018-02-20T21:45:23.381-0500 F -        [conn8] 7fe5fa87d000-7fe5fa87e000 r--p 0000a000 fd:01 1991                       /lib/x86_64-linux-gnu/libnss_files-2.23.so
+2018-02-20T21:45:23.381-0500 F -        [conn8] 7fe5fa87e000-7fe5fa87f000 rw-p 0000b000 fd:01 1991                       /lib/x86_64-linux-gnu/libnss_files-2.23.so
+2018-02-20T21:45:23.381-0500 F -        [conn8] 7fe5fa87f000-7fe5fa885000 rw-p 00000000 00:00 0 
+2018-02-20T21:45:23.381-0500 F -        [conn8] 7fe5fa885000-7fe5fa886000 ---p 00000000 00:00 0 
+2018-02-20T21:45:23.381-0500 F -        [conn8] 7fe5fa886000-7fe5fb086000 rw-p 00000000 00:00 0 
+2018-02-20T21:45:23.381-0500 F -        [conn8] 7fe5fb086000-7fe5fb087000 ---p 00000000 00:00 0 
+2018-02-20T21:45:23.381-0500 F -        [conn8] 7fe5fb087000-7fe5fb887000 rw-p 00000000 00:00 0 
+2018-02-20T21:45:23.381-0500 F -        [conn8] 7fe5fb887000-7fe5fb888000 ---p 00000000 00:00 0 
+2018-02-20T21:45:23.381-0500 F -        [conn8] 7fe5fb888000-7fe5fc088000 rw-p 00000000 00:00 0 
+2018-02-20T21:45:23.381-0500 F -        [conn8] 7fe5fc088000-7fe5fc089000 ---p 00000000 00:00 0 
+2018-02-20T21:45:23.381-0500 F -        [conn8] 7fe5fc089000-7fe5fc889000 rw-p 00000000 00:00 0 
+2018-02-20T21:45:23.381-0500 F -        [conn8] 7fe5fc889000-7fe5fc88a000 ---p 00000000 00:00 0 
+2018-02-20T21:45:23.381-0500 F -        [conn8] 7fe5fc88a000-7fe5fd08a000 rw-p 00000000 00:00 0 
+2018-02-20T21:45:23.381-0500 F -        [conn8] 7fe5fd08a000-7fe5fd08b000 ---p 00000000 00:00 0 
+2018-02-20T21:45:23.381-0500 F -        [conn8] 7fe5fd08b000-7fe5fd88b000 rw-p 00000000 00:00 0 
+2018-02-20T21:45:23.381-0500 F -        [conn8] 7fe5fd88b000-7fe5fd88c000 ---p 00000000 00:00 0 
+2018-02-20T21:45:23.381-0500 F -        [conn8] 7fe5fd88c000-7fe5fe08c000 rw-p 00000000 00:00 0 
+2018-02-20T21:45:23.381-0500 F -        [conn8] 7fe5fe08c000-7fe5fe08d000 ---p 00000000 00:00 0 
+2018-02-20T21:45:23.382-0500 F -        [conn8] 7fe5fe08d000-7fe5fe88d000 rw-p 00000000 00:00 0 
+2018-02-20T21:45:23.382-0500 F -        [conn8] 7fe5fe88d000-7fe5fe88e000 ---p 00000000 00:00 0 
+2018-02-20T21:45:23.382-0500 F -        [conn8] 7fe5fe88e000-7fe5ff08e000 rw-p 00000000 00:00 0 
+2018-02-20T21:45:23.382-0500 F -        [conn8] 7fe5ff08e000-7fe5ff08f000 ---p 00000000 00:00 0 
+2018-02-20T21:45:23.382-0500 F -        [conn8] 7fe5ff08f000-7fe5ff88f000 rw-p 00000000 00:00 0 
+2018-02-20T21:45:23.382-0500 F -        [conn8] 7fe5ff88f000-7fe5ff890000 ---p 00000000 00:00 0 
+2018-02-20T21:45:23.382-0500 F -        [conn8] 7fe5ff890000-7fe600090000 rw-p 00000000 00:00 0 
+2018-02-20T21:45:23.382-0500 F -        [conn8] 7fe600090000-7fe600091000 ---p 00000000 00:00 0 
+2018-02-20T21:45:23.382-0500 F -        [conn8] 7fe600091000-7fe600891000 rw-p 00000000 00:00 0 
+2018-02-20T21:45:23.382-0500 F -        [conn8] 7fe600891000-7fe600892000 ---p 00000000 00:00 0 
+2018-02-20T21:45:23.382-0500 F -        [conn8] 7fe600892000-7fe601092000 rw-p 00000000 00:00 0 
+2018-02-20T21:45:23.382-0500 F -        [conn8] 7fe601092000-7fe601093000 ---p 00000000 00:00 0 
+2018-02-20T21:45:23.382-0500 F -        [conn8] 7fe601093000-7fe601893000 rw-p 00000000 00:00 0 
+2018-02-20T21:45:23.382-0500 F -        [conn8] 7fe601893000-7fe601894000 ---p 00000000 00:00 0 
+2018-02-20T21:45:23.382-0500 F -        [conn8] 7fe601894000-7fe602094000 rw-p 00000000 00:00 0 
+2018-02-20T21:45:23.382-0500 F -        [conn8] 7fe602094000-7fe602095000 ---p 00000000 00:00 0 
+2018-02-20T21:45:23.382-0500 F -        [conn8] 7fe602095000-7fe602895000 rw-p 00000000 00:00 0 
+2018-02-20T21:45:23.382-0500 F -        [conn8] 7fe602895000-7fe602896000 ---p 00000000 00:00 0 
+2018-02-20T21:45:23.382-0500 F -        [conn8] 7fe602896000-7fe603096000 rw-p 00000000 00:00 0 
+2018-02-20T21:45:23.382-0500 F -        [conn8] 7fe603096000-7fe603097000 ---p 00000000 00:00 0 
+2018-02-20T21:45:23.382-0500 F -        [conn8] 7fe603097000-7fe603897000 rw-p 00000000 00:00 0 
+2018-02-20T21:45:23.382-0500 F -        [conn8] 7fe603897000-7fe603a57000 r-xp 00000000 fd:01 1971                       /lib/x86_64-linux-gnu/libc-2.23.so
+2018-02-20T21:45:23.382-0500 F -        [conn8] 7fe603a57000-7fe603c57000 ---p 001c0000 fd:01 1971                       /lib/x86_64-linux-gnu/libc-2.23.so
+2018-02-20T21:45:23.382-0500 F -        [conn8] 7fe603c57000-7fe603c5b000 r--p 001c0000 fd:01 1971                       /lib/x86_64-linux-gnu/libc-2.23.so
+2018-02-20T21:45:23.382-0500 F -        [conn8] 7fe603c5b000-7fe603c5d000 rw-p 001c4000 fd:01 1971                       /lib/x86_64-linux-gnu/libc-2.23.so
+2018-02-20T21:45:23.382-0500 F -        [conn8] 7fe603c5d000-7fe603c61000 rw-p 00000000 00:00 0 
+2018-02-20T21:45:23.382-0500 F -        [conn8] 7fe603c61000-7fe603c79000 r-xp 00000000 fd:01 1970                       /lib/x86_64-linux-gnu/libpthread-2.23.so
+2018-02-20T21:45:23.382-0500 F -        [conn8] 7fe603c79000-7fe603e78000 ---p 00018000 fd:01 1970                       /lib/x86_64-linux-gnu/libpthread-2.23.so
+2018-02-20T21:45:23.382-0500 F -        [conn8] 7fe603e78000-7fe603e79000 r--p 00017000 fd:01 1970                       /lib/x86_64-linux-gnu/libpthread-2.23.so
+2018-02-20T21:45:23.382-0500 F -        [conn8] 7fe603e79000-7fe603e7a000 rw-p 00018000 fd:01 1970                       /lib/x86_64-linux-gnu/libpthread-2.23.so
+2018-02-20T21:45:23.382-0500 F -        [conn8] 7fe603e7a000-7fe603e7e000 rw-p 00000000 00:00 0 
+2018-02-20T21:45:23.382-0500 F -        [conn8] 7fe603e7e000-7fe603e94000 r-xp 00000000 fd:01 1965                       /lib/x86_64-linux-gnu/libgcc_s.so.1
+2018-02-20T21:45:23.382-0500 F -        [conn8] 7fe603e94000-7fe604093000 ---p 00016000 fd:01 1965                       /lib/x86_64-linux-gnu/libgcc_s.so.1
+2018-02-20T21:45:23.382-0500 F -        [conn8] 7fe604093000-7fe604094000 rw-p 00015000 fd:01 1965                       /lib/x86_64-linux-gnu/libgcc_s.so.1
+2018-02-20T21:45:23.382-0500 F -        [conn8] 7fe604094000-7fe60419c000 r-xp 00000000 fd:01 1967                       /lib/x86_64-linux-gnu/libm-2.23.so
+2018-02-20T21:45:23.382-0500 F -        [conn8] 7fe60419c000-7fe60439b000 ---p 00108000 fd:01 1967                       /lib/x86_64-linux-gnu/libm-2.23.so
+2018-02-20T21:45:23.382-0500 F -        [conn8] 7fe60439b000-7fe60439c000 r--p 00107000 fd:01 1967                       /lib/x86_64-linux-gnu/libm-2.23.so
+2018-02-20T21:45:23.382-0500 F -        [conn8] 7fe60439c000-7fe60439d000 rw-p 00108000 fd:01 1967                       /lib/x86_64-linux-gnu/libm-2.23.so
+2018-02-20T21:45:23.382-0500 F -        [conn8] 7fe60439d000-7fe6043a0000 r-xp 00000000 fd:01 1973                       /lib/x86_64-linux-gnu/libdl-2.23.so
+2018-02-20T21:45:23.382-0500 F -        [conn8] 7fe6043a0000-7fe60459f000 ---p 00003000 fd:01 1973                       /lib/x86_64-linux-gnu/libdl-2.23.so
+2018-02-20T21:45:23.382-0500 F -        [conn8] 7fe60459f000-7fe6045a0000 r--p 00002000 fd:01 1973                       /lib/x86_64-linux-gnu/libdl-2.23.so
+2018-02-20T21:45:23.382-0500 F -        [conn8] 7fe6045a0000-7fe6045a1000 rw-p 00003000 fd:01 1973                       /lib/x86_64-linux-gnu/libdl-2.23.so
+2018-02-20T21:45:23.382-0500 F -        [conn8] 7fe6045a1000-7fe6045a8000 r-xp 00000000 fd:01 1996                       /lib/x86_64-linux-gnu/librt-2.23.so
+2018-02-20T21:45:23.382-0500 F -        [conn8] 7fe6045a8000-7fe6047a7000 ---p 00007000 fd:01 1996                       /lib/x86_64-linux-gnu/librt-2.23.so
+2018-02-20T21:45:23.382-0500 F -        [conn8] 7fe6047a7000-7fe6047a8000 r--p 00006000 fd:01 1996                       /lib/x86_64-linux-gnu/librt-2.23.so
+2018-02-20T21:45:23.382-0500 F -        [conn8] 7fe6047a8000-7fe6047a9000 rw-p 00007000 fd:01 1996                       /lib/x86_64-linux-gnu/librt-2.23.so
+2018-02-20T21:45:23.382-0500 F -        [conn8] 7fe6047a9000-7fe6049c3000 r-xp 00000000 fd:01 2115                       /lib/x86_64-linux-gnu/libcrypto.so.1.0.0
+2018-02-20T21:45:23.382-0500 F -        [conn8] 7fe6049c3000-7fe604bc2000 ---p 0021a000 fd:01 2115                       /lib/x86_64-linux-gnu/libcrypto.so.1.0.0
+2018-02-20T21:45:23.382-0500 F -        [conn8] 7fe604bc2000-7fe604bde000 r--p 00219000 fd:01 2115                       /lib/x86_64-linux-gnu/libcrypto.so.1.0.0
+2018-02-20T21:45:23.382-0500 F -        [conn8] 7fe604bde000-7fe604bea000 rw-p 00235000 fd:01 2115                       /lib/x86_64-linux-gnu/libcrypto.so.1.0.0
+2018-02-20T21:45:23.382-0500 F -        [conn8] 7fe604bea000-7fe604bed000 rw-p 00000000 00:00 0 
+2018-02-20T21:45:23.382-0500 F -        [conn8] 7fe604bed000-7fe604c4b000 r-xp 00000000 fd:01 2114                       /lib/x86_64-linux-gnu/libssl.so.1.0.0
+2018-02-20T21:45:23.382-0500 F -        [conn8] 7fe604c4b000-7fe604e4b000 ---p 0005e000 fd:01 2114                       /lib/x86_64-linux-gnu/libssl.so.1.0.0
+2018-02-20T21:45:23.382-0500 F -        [conn8] 7fe604e4b000-7fe604e4f000 r--p 0005e000 fd:01 2114                       /lib/x86_64-linux-gnu/libssl.so.1.0.0
+2018-02-20T21:45:23.382-0500 F -        [conn8] 7fe604e4f000-7fe604e56000 rw-p 00062000 fd:01 2114                       /lib/x86_64-linux-gnu/libssl.so.1.0.0
+2018-02-20T21:45:23.382-0500 F -        [conn8] 7fe604e56000-7fe604e7c000 r-xp 00000000 fd:01 1969                       /lib/x86_64-linux-gnu/ld-2.23.so
+2018-02-20T21:45:23.382-0500 F -        [conn8] 7fe604ed4000-7fe60506c000 r--p 00000000 fd:01 28972                      /usr/lib/locale/locale-archive
+2018-02-20T21:45:23.382-0500 F -        [conn8] 7fe60506c000-7fe605072000 rw-p 00000000 00:00 0 
+2018-02-20T21:45:23.382-0500 F -        [conn8] 7fe605074000-7fe60507b000 r--s 00000000 fd:01 24711                      /usr/lib/x86_64-linux-gnu/gconv/gconv-modules.cache
+2018-02-20T21:45:23.382-0500 F -        [conn8] 7fe60507b000-7fe60507c000 r--p 00025000 fd:01 1969                       /lib/x86_64-linux-gnu/ld-2.23.so
+2018-02-20T21:45:23.382-0500 F -        [conn8] 7fe60507c000-7fe60507d000 rw-p 00026000 fd:01 1969                       /lib/x86_64-linux-gnu/ld-2.23.so
+2018-02-20T21:45:23.382-0500 F -        [conn8] 7fe60507d000-7fe60507e000 rw-p 00000000 00:00 0 
+2018-02-20T21:45:23.382-0500 F -        [conn8] 7fffbc16b000-7fffbc18c000 rw-p 00000000 00:00 0                          [stack]
+2018-02-20T21:45:23.382-0500 F -        [conn8] 7fffbc1c6000-7fffbc1c9000 r--p 00000000 00:00 0                          [vvar]
+2018-02-20T21:45:23.382-0500 F -        [conn8] 7fffbc1c9000-7fffbc1cb000 r-xp 00000000 00:00 0                          [vdso]
+2018-02-20T21:45:23.382-0500 F -        [conn8] ffffffffff600000-ffffffffff601000 r-xp 00000000 00:00 0                  [vsyscall]
+2018-02-20T21:45:39.819-0500 I CONTROL  [main] ***** SERVER RESTARTED *****
+2018-02-20T21:45:39.824-0500 I CONTROL  [initandlisten] MongoDB starting : pid=1824 port=27017 dbpath=/app/database/cache/db 64-bit host=shrink
+2018-02-20T21:45:39.824-0500 I CONTROL  [initandlisten] db version v3.2.19
+2018-02-20T21:45:39.824-0500 I CONTROL  [initandlisten] git version: a9f574de6a566a58b24d126b44a56718d181e989
+2018-02-20T21:45:39.824-0500 I CONTROL  [initandlisten] OpenSSL version: OpenSSL 1.0.2g  1 Mar 2016
+2018-02-20T21:45:39.824-0500 I CONTROL  [initandlisten] allocator: tcmalloc
+2018-02-20T21:45:39.824-0500 I CONTROL  [initandlisten] modules: none
+2018-02-20T21:45:39.824-0500 I CONTROL  [initandlisten] build environment:
+2018-02-20T21:45:39.824-0500 I CONTROL  [initandlisten]     distmod: ubuntu1604
+2018-02-20T21:45:39.824-0500 I CONTROL  [initandlisten]     distarch: x86_64
+2018-02-20T21:45:39.824-0500 I CONTROL  [initandlisten]     target_arch: x86_64
+2018-02-20T21:45:39.824-0500 I CONTROL  [initandlisten] options: { config: "/app/configurations/mongodb/NLP-cache.conf", net: { bindIp: "127.0.0.1", port: 27017 }, storage: { dbPath: "/app/database/cache/db", journal: { enabled: true } }, systemLog: { destination: "file", logAppend: true, path: "/app/database/cache/mongod.log", quiet: true } }
+2018-02-20T21:45:39.855-0500 I STORAGE  [initandlisten] wiredtiger_open config: create,cache_size=1G,session_max=20000,eviction=(threads_min=4,threads_max=4),config_base=false,statistics=(fast),log=(enabled=true,archive=true,path=journal,compressor=snappy),file_manager=(close_idle_time=100000),checkpoint=(wait=60,log_size=2GB),statistics_log=(wait=0),verbose=(recovery_progress),
+2018-02-20T21:45:39.862-0500 E STORAGE  [initandlisten] WiredTiger (2) [1519181139:862850][1824:0x7feef7addc80], file:WiredTiger.wt, connection: /app/database/cache/db/WiredTiger.wt: handle-open: open: No such file or directory
+2018-02-20T21:45:39.863-0500 I -        [initandlisten] Assertion: 28595:2: No such file or directory
+2018-02-20T21:45:39.863-0500 I STORAGE  [initandlisten] exception in initAndListen: 28595 2: No such file or directory, terminating
+2018-02-20T21:45:39.863-0500 I CONTROL  [initandlisten] dbexit:  rc: 100
+2018-02-20T21:45:54.170-0500 I CONTROL  [main] ***** SERVER RESTARTED *****
+2018-02-20T21:45:54.175-0500 I CONTROL  [initandlisten] MongoDB starting : pid=1839 port=27017 dbpath=/app/database/cache/db 64-bit host=shrink
+2018-02-20T21:45:54.176-0500 I CONTROL  [initandlisten] db version v3.2.19
+2018-02-20T21:45:54.176-0500 I CONTROL  [initandlisten] git version: a9f574de6a566a58b24d126b44a56718d181e989
+2018-02-20T21:45:54.176-0500 I CONTROL  [initandlisten] OpenSSL version: OpenSSL 1.0.2g  1 Mar 2016
+2018-02-20T21:45:54.176-0500 I CONTROL  [initandlisten] allocator: tcmalloc
+2018-02-20T21:45:54.176-0500 I CONTROL  [initandlisten] modules: none
+2018-02-20T21:45:54.176-0500 I CONTROL  [initandlisten] build environment:
+2018-02-20T21:45:54.176-0500 I CONTROL  [initandlisten]     distmod: ubuntu1604
+2018-02-20T21:45:54.176-0500 I CONTROL  [initandlisten]     distarch: x86_64
+2018-02-20T21:45:54.176-0500 I CONTROL  [initandlisten]     target_arch: x86_64
+2018-02-20T21:45:54.176-0500 I CONTROL  [initandlisten] options: { config: "/app/configurations/mongodb/NLP-cache.conf", net: { bindIp: "127.0.0.1", port: 27017 }, storage: { dbPath: "/app/database/cache/db", journal: { enabled: true } }, systemLog: { destination: "file", logAppend: true, path: "/app/database/cache/mongod.log", quiet: true } }
+2018-02-20T21:45:54.206-0500 I STORAGE  [initandlisten] wiredtiger_open config: create,cache_size=1G,session_max=20000,eviction=(threads_min=4,threads_max=4),config_base=false,statistics=(fast),log=(enabled=true,archive=true,path=journal,compressor=snappy),file_manager=(close_idle_time=100000),checkpoint=(wait=60,log_size=2GB),statistics_log=(wait=0),verbose=(recovery_progress),
+2018-02-20T21:45:54.213-0500 E STORAGE  [initandlisten] WiredTiger (2) [1519181154:213778][1839:0x7fdc2077bc80], file:WiredTiger.wt, connection: /app/database/cache/db/WiredTiger.wt: handle-open: open: No such file or directory
+2018-02-20T21:45:54.214-0500 I -        [initandlisten] Assertion: 28595:2: No such file or directory
+2018-02-20T21:45:54.214-0500 I STORAGE  [initandlisten] exception in initAndListen: 28595 2: No such file or directory, terminating
+2018-02-20T21:45:54.214-0500 I CONTROL  [initandlisten] dbexit:  rc: 100
+2018-02-20T21:46:03.117-0500 I CONTROL  [main] ***** SERVER RESTARTED *****
+2018-02-20T21:46:03.123-0500 I CONTROL  [initandlisten] MongoDB starting : pid=1852 port=27017 dbpath=/app/database/cache/db 64-bit host=shrink
+2018-02-20T21:46:03.123-0500 I CONTROL  [initandlisten] db version v3.2.19
+2018-02-20T21:46:03.123-0500 I CONTROL  [initandlisten] git version: a9f574de6a566a58b24d126b44a56718d181e989
+2018-02-20T21:46:03.123-0500 I CONTROL  [initandlisten] OpenSSL version: OpenSSL 1.0.2g  1 Mar 2016
+2018-02-20T21:46:03.123-0500 I CONTROL  [initandlisten] allocator: tcmalloc
+2018-02-20T21:46:03.123-0500 I CONTROL  [initandlisten] modules: none
+2018-02-20T21:46:03.123-0500 I CONTROL  [initandlisten] build environment:
+2018-02-20T21:46:03.123-0500 I CONTROL  [initandlisten]     distmod: ubuntu1604
+2018-02-20T21:46:03.123-0500 I CONTROL  [initandlisten]     distarch: x86_64
+2018-02-20T21:46:03.123-0500 I CONTROL  [initandlisten]     target_arch: x86_64
+2018-02-20T21:46:03.123-0500 I CONTROL  [initandlisten] options: { config: "/app/configurations/mongodb/NLP-cache.conf", net: { bindIp: "127.0.0.1", port: 27017 }, storage: { dbPath: "/app/database/cache/db", journal: { enabled: true } }, systemLog: { destination: "file", logAppend: true, path: "/app/database/cache/mongod.log", quiet: true } }
+2018-02-20T21:46:03.154-0500 I STORAGE  [initandlisten] wiredtiger_open config: create,cache_size=1G,session_max=20000,eviction=(threads_min=4,threads_max=4),config_base=false,statistics=(fast),log=(enabled=true,archive=true,path=journal,compressor=snappy),file_manager=(close_idle_time=100000),checkpoint=(wait=60,log_size=2GB),statistics_log=(wait=0),verbose=(recovery_progress),
+2018-02-20T21:46:03.162-0500 E STORAGE  [initandlisten] WiredTiger (2) [1519181163:162082][1852:0x7f39cacfdc80], file:WiredTiger.wt, connection: /app/database/cache/db/WiredTiger.wt: handle-open: open: No such file or directory
+2018-02-20T21:46:03.162-0500 I -        [initandlisten] Assertion: 28595:2: No such file or directory
+2018-02-20T21:46:03.162-0500 I STORAGE  [initandlisten] exception in initAndListen: 28595 2: No such file or directory, terminating
+2018-02-20T21:46:03.162-0500 I CONTROL  [initandlisten] dbexit:  rc: 100
+2018-02-20T21:46:45.512-0500 I CONTROL  [main] ***** SERVER RESTARTED *****
+2018-02-20T21:46:45.601-0500 I CONTROL  [initandlisten] MongoDB starting : pid=1386 port=27017 dbpath=/app/database/cache/db 64-bit host=shrink
+2018-02-20T21:46:45.601-0500 I CONTROL  [initandlisten] db version v3.2.19
+2018-02-20T21:46:45.601-0500 I CONTROL  [initandlisten] git version: a9f574de6a566a58b24d126b44a56718d181e989
+2018-02-20T21:46:45.601-0500 I CONTROL  [initandlisten] OpenSSL version: OpenSSL 1.0.2g  1 Mar 2016
+2018-02-20T21:46:45.601-0500 I CONTROL  [initandlisten] allocator: tcmalloc
+2018-02-20T21:46:45.601-0500 I CONTROL  [initandlisten] modules: none
+2018-02-20T21:46:45.601-0500 I CONTROL  [initandlisten] build environment:
+2018-02-20T21:46:45.601-0500 I CONTROL  [initandlisten]     distmod: ubuntu1604
+2018-02-20T21:46:45.601-0500 I CONTROL  [initandlisten]     distarch: x86_64
+2018-02-20T21:46:45.601-0500 I CONTROL  [initandlisten]     target_arch: x86_64
+2018-02-20T21:46:45.601-0500 I CONTROL  [initandlisten] options: { config: "/app/configurations/mongodb/NLP-cache.conf", net: { bindIp: "127.0.0.1", port: 27017 }, storage: { dbPath: "/app/database/cache/db", journal: { enabled: true } }, systemLog: { destination: "file", logAppend: true, path: "/app/database/cache/mongod.log", quiet: true } }
+2018-02-20T21:46:45.720-0500 I STORAGE  [initandlisten] wiredtiger_open config: create,cache_size=1G,session_max=20000,eviction=(threads_min=4,threads_max=4),config_base=false,statistics=(fast),log=(enabled=true,archive=true,path=journal,compressor=snappy),file_manager=(close_idle_time=100000),checkpoint=(wait=60,log_size=2GB),statistics_log=(wait=0),verbose=(recovery_progress),
+2018-02-20T21:46:45.761-0500 E STORAGE  [initandlisten] WiredTiger (2) [1519181205:761838][1386:0x7ffb1d3f9c80], file:WiredTiger.wt, connection: /app/database/cache/db/WiredTiger.wt: handle-open: open: No such file or directory
+2018-02-20T21:46:45.762-0500 I -        [initandlisten] Assertion: 28595:2: No such file or directory
+2018-02-20T21:46:45.767-0500 I STORAGE  [initandlisten] exception in initAndListen: 28595 2: No such file or directory, terminating
+2018-02-20T21:46:45.767-0500 I CONTROL  [initandlisten] dbexit:  rc: 100
+2018-02-20T21:49:07.895-0500 I CONTROL  [main] ***** SERVER RESTARTED *****
+2018-02-20T21:49:07.902-0500 I CONTROL  [initandlisten] MongoDB starting : pid=1682 port=27017 dbpath=/app/database/cache/db 64-bit host=shrink
+2018-02-20T21:49:07.902-0500 I CONTROL  [initandlisten] db version v3.2.19
+2018-02-20T21:49:07.902-0500 I CONTROL  [initandlisten] git version: a9f574de6a566a58b24d126b44a56718d181e989
+2018-02-20T21:49:07.902-0500 I CONTROL  [initandlisten] OpenSSL version: OpenSSL 1.0.2g  1 Mar 2016
+2018-02-20T21:49:07.902-0500 I CONTROL  [initandlisten] allocator: tcmalloc
+2018-02-20T21:49:07.902-0500 I CONTROL  [initandlisten] modules: none
+2018-02-20T21:49:07.902-0500 I CONTROL  [initandlisten] build environment:
+2018-02-20T21:49:07.902-0500 I CONTROL  [initandlisten]     distmod: ubuntu1604
+2018-02-20T21:49:07.902-0500 I CONTROL  [initandlisten]     distarch: x86_64
+2018-02-20T21:49:07.902-0500 I CONTROL  [initandlisten]     target_arch: x86_64
+2018-02-20T21:49:07.902-0500 I CONTROL  [initandlisten] options: { config: "/app/configurations/mongodb/NLP-cache.conf", net: { bindIp: "127.0.0.1", port: 27017 }, storage: { dbPath: "/app/database/cache/db", journal: { enabled: true } }, systemLog: { destination: "file", logAppend: true, path: "/app/database/cache/mongod.log", quiet: true } }
+2018-02-20T21:49:07.934-0500 I STORAGE  [initandlisten] wiredtiger_open config: create,cache_size=1G,session_max=20000,eviction=(threads_min=4,threads_max=4),config_base=false,statistics=(fast),log=(enabled=true,archive=true,path=journal,compressor=snappy),file_manager=(close_idle_time=100000),checkpoint=(wait=60,log_size=2GB),statistics_log=(wait=0),verbose=(recovery_progress),
+2018-02-20T21:49:07.948-0500 E STORAGE  [initandlisten] WiredTiger (2) [1519181347:948077][1682:0x7f9cb9eedc80], file:WiredTiger.wt, connection: /app/database/cache/db/WiredTiger.wt: handle-open: open: No such file or directory
+2018-02-20T21:49:07.948-0500 I -        [initandlisten] Assertion: 28595:2: No such file or directory
+2018-02-20T21:49:07.948-0500 I STORAGE  [initandlisten] exception in initAndListen: 28595 2: No such file or directory, terminating
+2018-02-20T21:49:07.948-0500 I CONTROL  [initandlisten] dbexit:  rc: 100
+2018-02-20T21:50:08.869-0500 I CONTROL  [main] ***** SERVER RESTARTED *****
+2018-02-20T21:50:08.874-0500 I CONTROL  [initandlisten] MongoDB starting : pid=1700 port=27017 dbpath=/app/database/cache/db 64-bit host=shrink
+2018-02-20T21:50:08.874-0500 I CONTROL  [initandlisten] db version v3.2.19
+2018-02-20T21:50:08.874-0500 I CONTROL  [initandlisten] git version: a9f574de6a566a58b24d126b44a56718d181e989
+2018-02-20T21:50:08.874-0500 I CONTROL  [initandlisten] OpenSSL version: OpenSSL 1.0.2g  1 Mar 2016
+2018-02-20T21:50:08.874-0500 I CONTROL  [initandlisten] allocator: tcmalloc
+2018-02-20T21:50:08.874-0500 I CONTROL  [initandlisten] modules: none
+2018-02-20T21:50:08.874-0500 I CONTROL  [initandlisten] build environment:
+2018-02-20T21:50:08.874-0500 I CONTROL  [initandlisten]     distmod: ubuntu1604
+2018-02-20T21:50:08.874-0500 I CONTROL  [initandlisten]     distarch: x86_64
+2018-02-20T21:50:08.874-0500 I CONTROL  [initandlisten]     target_arch: x86_64
+2018-02-20T21:50:08.874-0500 I CONTROL  [initandlisten] options: { config: "/app/configurations/mongodb/NLP-cache.conf", net: { bindIp: "127.0.0.1", port: 27017 }, storage: { dbPath: "/app/database/cache/db", journal: { enabled: true } }, systemLog: { destination: "file", logAppend: true, path: "/app/database/cache/mongod.log", quiet: true } }
+2018-02-20T21:50:08.905-0500 I STORAGE  [initandlisten] wiredtiger_open config: create,cache_size=1G,session_max=20000,eviction=(threads_min=4,threads_max=4),config_base=false,statistics=(fast),log=(enabled=true,archive=true,path=journal,compressor=snappy),file_manager=(close_idle_time=100000),checkpoint=(wait=60,log_size=2GB),statistics_log=(wait=0),verbose=(recovery_progress),
+2018-02-20T21:50:08.913-0500 E STORAGE  [initandlisten] WiredTiger (2) [1519181408:913531][1700:0x7f8e95f97c80], file:WiredTiger.wt, connection: /app/database/cache/db/WiredTiger.wt: handle-open: open: No such file or directory
+2018-02-20T21:50:08.914-0500 I -        [initandlisten] Assertion: 28595:2: No such file or directory
+2018-02-20T21:50:08.914-0500 I STORAGE  [initandlisten] exception in initAndListen: 28595 2: No such file or directory, terminating
+2018-02-20T21:50:08.914-0500 I CONTROL  [initandlisten] dbexit:  rc: 100
+2018-02-20T21:50:25.232-0500 I CONTROL  [main] ***** SERVER RESTARTED *****
+2018-02-20T21:50:25.237-0500 I CONTROL  [initandlisten] MongoDB starting : pid=1721 port=27017 dbpath=/app/database/cache/db 64-bit host=shrink
+2018-02-20T21:50:25.237-0500 I CONTROL  [initandlisten] db version v3.2.19
+2018-02-20T21:50:25.237-0500 I CONTROL  [initandlisten] git version: a9f574de6a566a58b24d126b44a56718d181e989
+2018-02-20T21:50:25.237-0500 I CONTROL  [initandlisten] OpenSSL version: OpenSSL 1.0.2g  1 Mar 2016
+2018-02-20T21:50:25.237-0500 I CONTROL  [initandlisten] allocator: tcmalloc
+2018-02-20T21:50:25.237-0500 I CONTROL  [initandlisten] modules: none
+2018-02-20T21:50:25.237-0500 I CONTROL  [initandlisten] build environment:
+2018-02-20T21:50:25.237-0500 I CONTROL  [initandlisten]     distmod: ubuntu1604
+2018-02-20T21:50:25.237-0500 I CONTROL  [initandlisten]     distarch: x86_64
+2018-02-20T21:50:25.237-0500 I CONTROL  [initandlisten]     target_arch: x86_64
+2018-02-20T21:50:25.237-0500 I CONTROL  [initandlisten] options: { config: "/app/configurations/mongodb/NLP-cache.conf", net: { bindIp: "127.0.0.1", port: 27017 }, storage: { dbPath: "/app/database/cache/db", journal: { enabled: true } }, systemLog: { destination: "file", logAppend: true, path: "/app/database/cache/mongod.log", quiet: true } }
+2018-02-20T21:50:25.268-0500 I STORAGE  [initandlisten] wiredtiger_open config: create,cache_size=1G,session_max=20000,eviction=(threads_min=4,threads_max=4),config_base=false,statistics=(fast),log=(enabled=true,archive=true,path=journal,compressor=snappy),file_manager=(close_idle_time=100000),checkpoint=(wait=60,log_size=2GB),statistics_log=(wait=0),verbose=(recovery_progress),
+2018-02-20T21:50:25.275-0500 E STORAGE  [initandlisten] WiredTiger (2) [1519181425:275376][1721:0x7ff1561a2c80], file:WiredTiger.wt, connection: /app/database/cache/db/WiredTiger.wt: handle-open: open: No such file or directory
+2018-02-20T21:50:25.276-0500 I -        [initandlisten] Assertion: 28595:2: No such file or directory
+2018-02-20T21:50:25.276-0500 I STORAGE  [initandlisten] exception in initAndListen: 28595 2: No such file or directory, terminating
+2018-02-20T21:50:25.276-0500 I CONTROL  [initandlisten] dbexit:  rc: 100
+2018-02-20T21:50:44.570-0500 I CONTROL  [main] ***** SERVER RESTARTED *****
+2018-02-20T21:50:44.575-0500 I CONTROL  [initandlisten] MongoDB starting : pid=1740 port=27017 dbpath=/app/database/cache/db 64-bit host=shrink
+2018-02-20T21:50:44.575-0500 I CONTROL  [initandlisten] db version v3.2.19
+2018-02-20T21:50:44.575-0500 I CONTROL  [initandlisten] git version: a9f574de6a566a58b24d126b44a56718d181e989
+2018-02-20T21:50:44.575-0500 I CONTROL  [initandlisten] OpenSSL version: OpenSSL 1.0.2g  1 Mar 2016
+2018-02-20T21:50:44.575-0500 I CONTROL  [initandlisten] allocator: tcmalloc
+2018-02-20T21:50:44.575-0500 I CONTROL  [initandlisten] modules: none
+2018-02-20T21:50:44.575-0500 I CONTROL  [initandlisten] build environment:
+2018-02-20T21:50:44.575-0500 I CONTROL  [initandlisten]     distmod: ubuntu1604
+2018-02-20T21:50:44.575-0500 I CONTROL  [initandlisten]     distarch: x86_64
+2018-02-20T21:50:44.575-0500 I CONTROL  [initandlisten]     target_arch: x86_64
+2018-02-20T21:50:44.575-0500 I CONTROL  [initandlisten] options: { config: "/app/configurations/mongodb/NLP-cache.conf", net: { bindIp: "127.0.0.1", port: 27017 }, storage: { dbPath: "/app/database/cache/db", journal: { enabled: true } }, systemLog: { destination: "file", logAppend: true, path: "/app/database/cache/mongod.log", quiet: true } }
+2018-02-20T21:50:44.606-0500 I STORAGE  [initandlisten] wiredtiger_open config: create,cache_size=1G,session_max=20000,eviction=(threads_min=4,threads_max=4),config_base=false,statistics=(fast),log=(enabled=true,archive=true,path=journal,compressor=snappy),file_manager=(close_idle_time=100000),checkpoint=(wait=60,log_size=2GB),statistics_log=(wait=0),verbose=(recovery_progress),
+2018-02-20T21:50:44.633-0500 I CONTROL  [initandlisten] 
+2018-02-20T21:50:44.633-0500 I CONTROL  [initandlisten] ** WARNING: /sys/kernel/mm/transparent_hugepage/enabled is 'always'.
+2018-02-20T21:50:44.633-0500 I CONTROL  [initandlisten] **        We suggest setting it to 'never'
+2018-02-20T21:50:44.633-0500 I CONTROL  [initandlisten] 
+2018-02-20T21:50:44.633-0500 I CONTROL  [initandlisten] ** WARNING: /sys/kernel/mm/transparent_hugepage/defrag is 'always'.
+2018-02-20T21:50:44.633-0500 I CONTROL  [initandlisten] **        We suggest setting it to 'never'
+2018-02-20T21:50:44.633-0500 I CONTROL  [initandlisten] 
+2018-02-20T21:50:44.640-0500 I NETWORK  [HostnameCanonicalizationWorker] Starting hostname canonicalization worker
+2018-02-20T21:50:44.641-0500 I FTDC     [initandlisten] Initializing full-time diagnostic data capture with directory '/app/database/cache/db/diagnostic.data'
+2018-02-20T21:50:44.641-0500 I NETWORK  [initandlisten] waiting for connections on port 27017
+2018-02-20T22:16:01.261-0500 I CONTROL  [signalProcessingThread] got signal 15 (Terminated), will terminate after current cmd ends
+2018-02-20T22:16:01.261-0500 I FTDC     [signalProcessingThread] Shutting down full-time diagnostic data capture
+2018-02-20T22:16:01.266-0500 I CONTROL  [signalProcessingThread] now exiting
+2018-02-20T22:16:01.266-0500 I NETWORK  [signalProcessingThread] shutdown: going to close listening sockets...
+2018-02-20T22:16:01.266-0500 I NETWORK  [signalProcessingThread] closing listening socket: 6
+2018-02-20T22:16:01.266-0500 I NETWORK  [signalProcessingThread] closing listening socket: 7
+2018-02-20T22:16:01.266-0500 I NETWORK  [signalProcessingThread] removing socket file: /tmp/mongodb-27017.sock
+2018-02-20T22:16:01.266-0500 I NETWORK  [signalProcessingThread] shutdown: going to flush diaglog...
+2018-02-20T22:16:01.266-0500 I NETWORK  [signalProcessingThread] shutdown: going to close sockets...
+2018-02-20T22:16:01.266-0500 I STORAGE  [signalProcessingThread] WiredTigerKVEngine shutting down
+2018-02-20T22:16:01.306-0500 I STORAGE  [signalProcessingThread] shutdown: removing fs lock...
+2018-02-20T22:16:01.306-0500 I CONTROL  [signalProcessingThread] dbexit:  rc: 0
+2018-02-20T22:16:21.022-0500 I CONTROL  [main] ***** SERVER RESTARTED *****
+2018-02-20T22:16:21.068-0500 I CONTROL  [initandlisten] MongoDB starting : pid=1344 port=27017 dbpath=/app/database/cache/db 64-bit host=shrink
+2018-02-20T22:16:21.068-0500 I CONTROL  [initandlisten] db version v3.2.19
+2018-02-20T22:16:21.069-0500 I CONTROL  [initandlisten] git version: a9f574de6a566a58b24d126b44a56718d181e989
+2018-02-20T22:16:21.069-0500 I CONTROL  [initandlisten] OpenSSL version: OpenSSL 1.0.2g  1 Mar 2016
+2018-02-20T22:16:21.069-0500 I CONTROL  [initandlisten] allocator: tcmalloc
+2018-02-20T22:16:21.069-0500 I CONTROL  [initandlisten] modules: none
+2018-02-20T22:16:21.069-0500 I CONTROL  [initandlisten] build environment:
+2018-02-20T22:16:21.069-0500 I CONTROL  [initandlisten]     distmod: ubuntu1604
+2018-02-20T22:16:21.069-0500 I CONTROL  [initandlisten]     distarch: x86_64
+2018-02-20T22:16:21.069-0500 I CONTROL  [initandlisten]     target_arch: x86_64
+2018-02-20T22:16:21.069-0500 I CONTROL  [initandlisten] options: { config: "/app/configurations/mongodb/NLP-cache.conf", net: { bindIp: "127.0.0.1", port: 27017 }, storage: { dbPath: "/app/database/cache/db", journal: { enabled: true } }, systemLog: { destination: "file", logAppend: true, path: "/app/database/cache/mongod.log", quiet: true } }
+2018-02-20T22:16:21.315-0500 I -        [initandlisten] Detected data files in /app/database/cache/db created by the 'wiredTiger' storage engine, so setting the active storage engine to 'wiredTiger'.
+2018-02-20T22:16:21.319-0500 I STORAGE  [initandlisten] wiredtiger_open config: create,cache_size=1G,session_max=20000,eviction=(threads_min=4,threads_max=4),config_base=false,statistics=(fast),log=(enabled=true,archive=true,path=journal,compressor=snappy),file_manager=(close_idle_time=100000),checkpoint=(wait=60,log_size=2GB),statistics_log=(wait=0),verbose=(recovery_progress),
+2018-02-20T22:16:21.726-0500 I STORAGE  [initandlisten] WiredTiger [1519182981:726371][1344:0x7fc50084bc80], txn-recover: Main recovery loop: starting at 1/44032
+2018-02-20T22:16:21.854-0500 I STORAGE  [initandlisten] WiredTiger [1519182981:854854][1344:0x7fc50084bc80], txn-recover: Recovering log 1 through 2
+2018-02-20T22:16:21.937-0500 I STORAGE  [initandlisten] WiredTiger [1519182981:937744][1344:0x7fc50084bc80], txn-recover: Recovering log 2 through 2
+2018-02-20T22:16:22.059-0500 I CONTROL  [initandlisten] 
+2018-02-20T22:16:22.059-0500 I CONTROL  [initandlisten] ** WARNING: /sys/kernel/mm/transparent_hugepage/enabled is 'always'.
+2018-02-20T22:16:22.059-0500 I CONTROL  [initandlisten] **        We suggest setting it to 'never'
+2018-02-20T22:16:22.059-0500 I CONTROL  [initandlisten] 
+2018-02-20T22:16:22.059-0500 I CONTROL  [initandlisten] ** WARNING: /sys/kernel/mm/transparent_hugepage/defrag is 'always'.
+2018-02-20T22:16:22.059-0500 I CONTROL  [initandlisten] **        We suggest setting it to 'never'
+2018-02-20T22:16:22.059-0500 I CONTROL  [initandlisten] 
+2018-02-20T22:16:22.063-0500 I FTDC     [initandlisten] Initializing full-time diagnostic data capture with directory '/app/database/cache/db/diagnostic.data'
+2018-02-20T22:16:22.063-0500 I NETWORK  [initandlisten] waiting for connections on port 27017
+2018-02-20T22:16:22.063-0500 I NETWORK  [HostnameCanonicalizationWorker] Starting hostname canonicalization worker
+2018-02-21T12:47:47.386-0500 I CONTROL  [signalProcessingThread] got signal 15 (Terminated), will terminate after current cmd ends
+2018-02-21T12:47:47.386-0500 I FTDC     [signalProcessingThread] Shutting down full-time diagnostic data capture
+2018-02-21T12:47:47.398-0500 I CONTROL  [signalProcessingThread] now exiting
+2018-02-21T12:47:47.398-0500 I NETWORK  [signalProcessingThread] shutdown: going to close listening sockets...
+2018-02-21T12:47:47.398-0500 I NETWORK  [signalProcessingThread] closing listening socket: 6
+2018-02-21T12:47:47.399-0500 I NETWORK  [signalProcessingThread] closing listening socket: 7
+2018-02-21T12:47:47.399-0500 I NETWORK  [signalProcessingThread] removing socket file: /tmp/mongodb-27017.sock
+2018-02-21T12:47:47.399-0500 I NETWORK  [signalProcessingThread] shutdown: going to flush diaglog...
+2018-02-21T12:47:47.399-0500 I NETWORK  [signalProcessingThread] shutdown: going to close sockets...
+2018-02-21T12:47:47.399-0500 I STORAGE  [signalProcessingThread] WiredTigerKVEngine shutting down
+2018-02-21T12:47:47.510-0500 I STORAGE  [signalProcessingThread] shutdown: removing fs lock...
+2018-02-21T12:47:47.510-0500 I CONTROL  [signalProcessingThread] dbexit:  rc: 0
+2018-02-21T12:48:07.205-0500 I CONTROL  [main] ***** SERVER RESTARTED *****
+2018-02-21T12:48:07.220-0500 I CONTROL  [initandlisten] MongoDB starting : pid=1388 port=27017 dbpath=/app/database/cache/db 64-bit host=shrink
+2018-02-21T12:48:07.220-0500 I CONTROL  [initandlisten] db version v3.2.19
+2018-02-21T12:48:07.220-0500 I CONTROL  [initandlisten] git version: a9f574de6a566a58b24d126b44a56718d181e989
+2018-02-21T12:48:07.220-0500 I CONTROL  [initandlisten] OpenSSL version: OpenSSL 1.0.2g  1 Mar 2016
+2018-02-21T12:48:07.220-0500 I CONTROL  [initandlisten] allocator: tcmalloc
+2018-02-21T12:48:07.220-0500 I CONTROL  [initandlisten] modules: none
+2018-02-21T12:48:07.220-0500 I CONTROL  [initandlisten] build environment:
+2018-02-21T12:48:07.220-0500 I CONTROL  [initandlisten]     distmod: ubuntu1604
+2018-02-21T12:48:07.220-0500 I CONTROL  [initandlisten]     distarch: x86_64
+2018-02-21T12:48:07.220-0500 I CONTROL  [initandlisten]     target_arch: x86_64
+2018-02-21T12:48:07.220-0500 I CONTROL  [initandlisten] options: { config: "/app/configurations/mongodb/NLP-cache.conf", net: { bindIp: "127.0.0.1", port: 27017 }, storage: { dbPath: "/app/database/cache/db", journal: { enabled: true } }, systemLog: { destination: "file", logAppend: true, path: "/app/database/cache/mongod.log", quiet: true } }
+2018-02-21T12:48:07.448-0500 I -        [initandlisten] Detected data files in /app/database/cache/db created by the 'wiredTiger' storage engine, so setting the active storage engine to 'wiredTiger'.
+2018-02-21T12:48:07.448-0500 I STORAGE  [initandlisten] wiredtiger_open config: create,cache_size=1G,session_max=20000,eviction=(threads_min=4,threads_max=4),config_base=false,statistics=(fast),log=(enabled=true,archive=true,path=journal,compressor=snappy),file_manager=(close_idle_time=100000),checkpoint=(wait=60,log_size=2GB),statistics_log=(wait=0),verbose=(recovery_progress),
+2018-02-21T12:48:07.806-0500 I STORAGE  [initandlisten] WiredTiger [1519235287:806847][1388:0x7f708a305c80], txn-recover: Main recovery loop: starting at 2/73856
+2018-02-21T12:48:07.921-0500 I STORAGE  [initandlisten] WiredTiger [1519235287:921503][1388:0x7f708a305c80], txn-recover: Recovering log 2 through 3
+2018-02-21T12:48:07.929-0500 I STORAGE  [initandlisten] WiredTiger [1519235287:929141][1388:0x7f708a305c80], txn-recover: Recovering log 3 through 3
+2018-02-21T12:48:08.204-0500 I CONTROL  [initandlisten] 
+2018-02-21T12:48:08.204-0500 I CONTROL  [initandlisten] ** WARNING: /sys/kernel/mm/transparent_hugepage/enabled is 'always'.
+2018-02-21T12:48:08.204-0500 I CONTROL  [initandlisten] **        We suggest setting it to 'never'
+2018-02-21T12:48:08.204-0500 I CONTROL  [initandlisten] 
+2018-02-21T12:48:08.204-0500 I CONTROL  [initandlisten] ** WARNING: /sys/kernel/mm/transparent_hugepage/defrag is 'always'.
+2018-02-21T12:48:08.204-0500 I CONTROL  [initandlisten] **        We suggest setting it to 'never'
+2018-02-21T12:48:08.204-0500 I CONTROL  [initandlisten] 
+2018-02-21T12:48:08.214-0500 I FTDC     [initandlisten] Initializing full-time diagnostic data capture with directory '/app/database/cache/db/diagnostic.data'
+2018-02-21T12:48:08.214-0500 I NETWORK  [initandlisten] waiting for connections on port 27017
+2018-02-21T12:48:08.214-0500 I NETWORK  [HostnameCanonicalizationWorker] Starting hostname canonicalization worker
+2018-02-21T13:08:28.039-0500 E STORAGE  [thread1] WiredTiger (2) [1519236508:39742][1388:0x7f708732c700], log-server: /app/database/cache/db/journal: directory-list: opendir: No such file or directory
+2018-02-21T13:08:28.039-0500 E STORAGE  [thread1] WiredTiger (2) [1519236508:39848][1388:0x7f708732c700], log-server: log pre-alloc server error: No such file or directory
+2018-02-21T13:08:28.039-0500 E STORAGE  [thread1] WiredTiger (2) [1519236508:39864][1388:0x7f708732c700], log-server: log server error: No such file or directory
+2018-02-21T13:08:29.004-0500 W FTDC     [ftdc] Uncaught exception in 'FileNotOpen: Failed to open interim file /app/database/cache/db/diagnostic.data/metrics.interim.temp' in full-time diagnostic data capture subsystem. Shutting down the full-time diagnostic data capture subsystem.

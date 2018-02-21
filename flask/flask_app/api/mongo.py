@@ -1,29 +1,31 @@
 #!/usr/bin/python
-
+from nlp.summarizer import summarize
 from pymongo import MongoClient
+from urllib3.util.url import parse_url
 from api.summary import send_request
-
 import json
 
-def init():
-    global summaries
+def mongo_start(url, text):
+    host = parse_url(url).host.split('.')[1]
     client = MongoClient('127.0.0.1', 27017)
     db = client['shrink_db'] 
-    summaries = db.summaries
+    summaries = db.host
+    return fetch_data(url, summaries, text)
 
-def import_data(url):
+def import_data(url, summaries, text):
+    post = summarize(text)
+    # post = send_request(url)
     post_data = {
         'site': url,
-        'summary': send_request(url)
+        'summary': post
     }
     result = summaries.insert_one(post_data)
+    return post
 
-def fetch_data(url):
-    init()
+def fetch_data(url, summaries, text):
     fetch = summaries.find_one({'site': url})
     if not fetch: 
-        import_data(url)
-        fetch_data(url)
+        return import_data(url, summaries, text)
     else:
         return fetch['summary']
 

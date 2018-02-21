@@ -2,7 +2,8 @@
 from urllib3.util.url import parse_url
 from newspaper import Article
 # Custom imports
-from api.mongo import fetch_data
+from api.mongo import mongo_start
+# from api.mongo import init
 from api.cred import calculate
 import json
 
@@ -20,21 +21,25 @@ def request_function(url):
 
     authors = a.authors
     text = a.text 
-   
+    length = len(text)   
     # Check if the webste is a homepage or not
     if len(result) > 2:
         # Passes url to the NLP API
-        content = fetch_data(url)
+        content = mongo_start(url, text)
+        # content = init(url)
         # Determines whether the process was possible or not
         if content is None:
-            return "Not Possible"
-        else:
-            content = json.loads(content)
+            return "None" 
+        # else:
+        #    content = json.loads(content)
         # TODO: Finish computation of credibility
         # Logic of appending credibility to structure returned to the chrome extension
         calc = calculate(text, authors, url)
+        reduce = float((len(content['summary']) / length) * 100)
+        content['reduce'] = reduce
         content['value'] = calc
+        content['title'] = a.title
         content = json.dumps(content)
         return content
     else:
-        return "Not Possible"
+        return "Not Possible" 
