@@ -1,5 +1,6 @@
 flask/flask_env/
-flask/flask_app/__pycache__
+flask/flask_app/__pycache___
 database/auth/*
 database/cache/*
 flask/flask_app/logs
+flask/flask_app/nlp/__pycache__
