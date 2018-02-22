@@ -2,7 +2,6 @@
 from nlp.summarizer import summarize
 from pymongo import MongoClient
 from urllib3.util.url import parse_url
-from api.summary import send_request
 import json
 
 def mongo_start(url, text):
@@ -13,7 +12,12 @@ def mongo_start(url, text):
     return fetch_data(url, summaries, text)
 
 def import_data(url, summaries, text):
-    post = summarize(text)
+    if len(text) > 1000:
+        post = summarize(text, None, 9)
+    elif len(text) > 750:
+        post = summarize(text, None, 7)
+    else:
+        post = summarize(text)
     # post = send_request(url)
     post_data = {
         'site': url,

@@ -78,7 +78,7 @@ def similarity_graph_from_term_document_matrix(sp_mat):
     #g.add_nodes_from(range(n)) # unconnected nodes will still affect pagerank score, but I think they'll just affect scaling and not rank order, which is all we care about.
     return g
     
-def summarize(text=None, term_doc_matrix=None,  n=7, tfidf=False, ngram_range=None, verbose=False):
+def summarize(text=None, term_doc_matrix=None,  n=5, tfidf=False, ngram_range=None, verbose=False):
     """
     Given an input document, extracts and returns representative sentences.
     At present, returns top n sentences, but I hope to find an unsupervised 
