@@ -1,0 +1,3 @@
+[submodule "ShrinkExtension"]
+	path = ShrinkExtension
+	url = https://github.com/tjwells47/ShrinkExtension
