@@ -12,7 +12,7 @@ def mongo_start(url, text):
     return fetch_data(url, summaries, text)
 
 def import_data(url, summaries, text):
-    if len(text) > 1000:
+    if len(text) > 1500:
         post = summarize(text, None, 9)
     elif len(text) > 750:
         post = summarize(text, None, 7)

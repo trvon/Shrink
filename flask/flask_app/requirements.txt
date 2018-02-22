@@ -6,3 +6,4 @@ flask
 language-check
 demjson
 urllib3
+scrapy

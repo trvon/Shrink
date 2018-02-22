@@ -75,7 +75,7 @@ def vectorize(sentences, tfidf=True, ngram_range=None):
 def similarity_graph_from_term_document_matrix(sp_mat):
     dx = pairwise_kernels(sp_mat, metric='cosine')
     g = nx.from_numpy_matrix(dx)
-    #g.add_nodes_from(range(n)) # unconnected nodes will still affect pagerank score, but I think they'll just affect scaling and not rank order, which is all we care about.
+    # g.add_nodes_from(range(n)) # unconnected nodes will still affect pagerank score, but I think they'll just affect scaling and not rank order, which is all we care about.
     return g
     
 def summarize(text=None, term_doc_matrix=None,  n=5, tfidf=False, ngram_range=None, verbose=False):
