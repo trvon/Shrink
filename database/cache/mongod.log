@@ -668,3 +668,42 @@
 2018-02-22T08:04:25.985-0500 I FTDC     [initandlisten] Initializing full-time diagnostic data capture with directory '/app/database/cache/db/diagnostic.data'
 2018-02-22T08:04:25.985-0500 I NETWORK  [initandlisten] waiting for connections on port 27017
 2018-02-22T08:04:25.985-0500 I NETWORK  [HostnameCanonicalizationWorker] Starting hostname canonicalization worker
+2018-03-01T16:28:16.337-0500 I CONTROL  [signalProcessingThread] got signal 15 (Terminated), will terminate after current cmd ends
+2018-03-01T16:28:16.338-0500 I FTDC     [signalProcessingThread] Shutting down full-time diagnostic data capture
+2018-03-01T16:28:16.356-0500 I CONTROL  [signalProcessingThread] now exiting
+2018-03-01T16:28:16.356-0500 I NETWORK  [signalProcessingThread] shutdown: going to close listening sockets...
+2018-03-01T16:28:16.356-0500 I NETWORK  [signalProcessingThread] closing listening socket: 6
+2018-03-01T16:28:16.356-0500 I NETWORK  [signalProcessingThread] closing listening socket: 7
+2018-03-01T16:28:16.356-0500 I NETWORK  [signalProcessingThread] removing socket file: /tmp/mongodb-27017.sock
+2018-03-01T16:28:16.356-0500 I NETWORK  [signalProcessingThread] shutdown: going to flush diaglog...
+2018-03-01T16:28:16.356-0500 I NETWORK  [signalProcessingThread] shutdown: going to close sockets...
+2018-03-01T16:28:16.356-0500 I STORAGE  [signalProcessingThread] WiredTigerKVEngine shutting down
+2018-03-01T16:28:16.430-0500 I STORAGE  [signalProcessingThread] shutdown: removing fs lock...
+2018-03-01T16:28:16.430-0500 I CONTROL  [signalProcessingThread] dbexit:  rc: 0
+2018-03-01T16:31:09.500-0500 I CONTROL  [main] ***** SERVER RESTARTED *****
+2018-03-01T16:31:09.527-0500 I CONTROL  [initandlisten] MongoDB starting : pid=1347 port=27017 dbpath=/app/database/cache/db 64-bit host=shrink
+2018-03-01T16:31:09.527-0500 I CONTROL  [initandlisten] db version v3.2.19
+2018-03-01T16:31:09.527-0500 I CONTROL  [initandlisten] git version: a9f574de6a566a58b24d126b44a56718d181e989
+2018-03-01T16:31:09.527-0500 I CONTROL  [initandlisten] OpenSSL version: OpenSSL 1.0.2g  1 Mar 2016
+2018-03-01T16:31:09.527-0500 I CONTROL  [initandlisten] allocator: tcmalloc
+2018-03-01T16:31:09.527-0500 I CONTROL  [initandlisten] modules: none
+2018-03-01T16:31:09.527-0500 I CONTROL  [initandlisten] build environment:
+2018-03-01T16:31:09.527-0500 I CONTROL  [initandlisten]     distmod: ubuntu1604
+2018-03-01T16:31:09.527-0500 I CONTROL  [initandlisten]     distarch: x86_64
+2018-03-01T16:31:09.527-0500 I CONTROL  [initandlisten]     target_arch: x86_64
+2018-03-01T16:31:09.527-0500 I CONTROL  [initandlisten] options: { config: "/app/configurations/mongodb/NLP-cache.conf", net: { bindIp: "127.0.0.1", port: 27017 }, storage: { dbPath: "/app/database/cache/db", journal: { enabled: true } }, systemLog: { destination: "file", logAppend: true, path: "/app/database/cache/mongod.log", quiet: true } }
+2018-03-01T16:31:09.635-0500 I -        [initandlisten] Detected data files in /app/database/cache/db created by the 'wiredTiger' storage engine, so setting the active storage engine to 'wiredTiger'.
+2018-03-01T16:31:09.636-0500 I STORAGE  [initandlisten] wiredtiger_open config: create,cache_size=1G,session_max=20000,eviction=(threads_min=4,threads_max=4),config_base=false,statistics=(fast),log=(enabled=true,archive=true,path=journal,compressor=snappy),file_manager=(close_idle_time=100000),checkpoint=(wait=60,log_size=2GB),statistics_log=(wait=0),verbose=(recovery_progress),
+2018-03-01T16:31:10.038-0500 I STORAGE  [initandlisten] WiredTiger [1519939870:38184][1347:0x7fa90ad75c80], txn-recover: Main recovery loop: starting at 3/680704
+2018-03-01T16:31:10.107-0500 I STORAGE  [initandlisten] WiredTiger [1519939870:107904][1347:0x7fa90ad75c80], txn-recover: Recovering log 3 through 4
+2018-03-01T16:31:10.109-0500 I STORAGE  [initandlisten] WiredTiger [1519939870:109402][1347:0x7fa90ad75c80], txn-recover: Recovering log 4 through 4
+2018-03-01T16:31:10.216-0500 I CONTROL  [initandlisten] 
+2018-03-01T16:31:10.216-0500 I CONTROL  [initandlisten] ** WARNING: /sys/kernel/mm/transparent_hugepage/enabled is 'always'.
+2018-03-01T16:31:10.216-0500 I CONTROL  [initandlisten] **        We suggest setting it to 'never'
+2018-03-01T16:31:10.216-0500 I CONTROL  [initandlisten] 
+2018-03-01T16:31:10.216-0500 I CONTROL  [initandlisten] ** WARNING: /sys/kernel/mm/transparent_hugepage/defrag is 'always'.
+2018-03-01T16:31:10.216-0500 I CONTROL  [initandlisten] **        We suggest setting it to 'never'
+2018-03-01T16:31:10.216-0500 I CONTROL  [initandlisten] 
+2018-03-01T16:31:10.223-0500 I FTDC     [initandlisten] Initializing full-time diagnostic data capture with directory '/app/database/cache/db/diagnostic.data'
+2018-03-01T16:31:10.223-0500 I NETWORK  [initandlisten] waiting for connections on port 27017
+2018-03-01T16:31:10.223-0500 I NETWORK  [HostnameCanonicalizationWorker] Starting hostname canonicalization worker
