@@ -21,6 +21,7 @@ For this project, we decided to address the problem of consuming the plethora of
 ## Future Goals of this Work
 - [ ]	Complete the integration of social media sharing and crowdsource curation of popular summaries
 - [ ]	Caching Summaries based upon research intensive tasks
+- [ ]	Bookmarking with history browsing tree
 - [ ]	Peer reviewing
 
 Resources:
