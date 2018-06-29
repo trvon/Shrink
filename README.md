@@ -30,6 +30,3 @@ Resources:
 - https://www.digitalocean.com/community/tutorials/how-to-serve-flask-applications-with-gunicorn-and-nginx-on-ubuntu-14-04
 ### NLP Resources
 - https://github.com/dipanjanS/text-analytics-with-python
-
-## Useful
-For more information regarding building the project, understanding what is happening, or finding any documentationplease check the wiki :)
